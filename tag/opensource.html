@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>El Blog de Leech - opensource</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href=".././theme/css/main.css" type="text/css" />
+        <link href=".././feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="El Blog de Leech ATOM Feed" />
+        
+        <link href=".././feeds/all.rss.xml" type="application/atom+xml" rel="alternate" title="El Blog de Leech RSS Feed" />
+        
+
+        
+
+        <!--[if IE]>
+                <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+        <!--[if lte IE 7]>
+                <link rel="stylesheet" type="text/css" media="all" href=".././css/ie.css"/>
+                <script src=".././js/IE8.js" type="text/javascript"></script><![endif]-->
+
+        <!--[if lt IE 7]>
+                <link rel="stylesheet" type="text/css" media="all" href=".././css/ie6.css"/><![endif]-->
+
+</head>
+
+<body id="index" class="home">
+
+        <header id="banner" class="body">
+                <h1><a href="../.">El Blog de Leech </a></h1>
+                <nav><ul>
+                
+                
+                
+                
+                
+                    <li ><a href=".././category/Tecnología.html">Tecnología</a></li>
+                
+                    <li ><a href=".././category/Software.html">Software</a></li>
+                
+                    <li ><a href=".././category/Personal.html">Personal</a></li>
+                
+                    <li ><a href=".././category/Películas.html">Películas</a></li>
+                
+                    <li ><a href=".././category/Música.html">Música</a></li>
+                
+                    <li ><a href=".././category/Literatura.html">Literatura</a></li>
+                
+                    <li ><a href=".././category/Juegos.html">Juegos</a></li>
+                
+                    <li ><a href=".././category/Humor.html">Humor</a></li>
+                
+                    <li ><a href=".././category/General.html">General</a></li>
+                
+                    <li ><a href=".././category/Gadgets.html">Gadgets</a></li>
+                
+                </ul></nav>
+        </header><!-- /#banner -->
+                
+
+            
+
+        
+        
+            <aside id="featured" class="body">
+                <article>
+                    <h1 class="entry-title"><a href=".././delicious-stumble-01b.html">Delicious Stumble 0.1b</a></h1> 
+                    <footer class="post-info">
+        <abbr class="published" title="2005-01-17T00:00:00">
+                Mon 17 January 2005
+        </abbr>
+
+        
+        <address class="vcard author">
+                By <a class="url fn" href="#">Leandro Ardissone</a>
+        </address>
+        
+<p>In <a href=".././category/General.html">General</a>. </p>
+<p>tags: <a href=".././tag/proyectos.html">proyectos</a><a href=".././tag/opensource.html">opensource</a></p>
+
+
+</footer><!-- /.post-info --><p>Bueno, dado a que ya hace un tiempito no funciona mas nutr.itio.us, el cual era un sistema excelente para postear sitios a del.icio.us, y sumado a que no tengo tiempo como para hacer una toolbar similar a <a href="http://www.stumbleupon.com/">StumbleUpon</a>, ésta mañana se me ocurrió unificar la funcionalidad de ambos para mi comodidad a la hora de postear, y acá lo comparto con ustedes.<br />
+</p>
+<p>El funcionamiento es algo extraño, los que hayan usado la toolbar de StumbleUpon, habrán notado un servicio excelente, el envio de sitios por mail on-the-fly. Bueno, yo hago uso de esa funcionalidad de StumbleUpon, para postear links en <a href="http://del.icio.us/">del.icio.us</a> con todas las posibilidades de del.icio.us.<br />
+Quizás para algunos sea una tarea engorrosa, y prefieran hacerlo desde la misma página de del.icio.us, que es un buen sistema, asi que a esas personas no va destinado.<br />
+</p>
+<p>Para utilizar este sistema, se necesita de un servidor con PHP y la posibilidad de cargar tareas al Cron (esto es opcional, si se desea se puede hacer manualmente), una casilla de correo POP3 y un poco de ingenio a la hora de configurar el script.<br />
+Los detalles de la instalación se encuentran en el mismo script.<br />
+</p>
+<p>El script hace uso de algunos paquetes de <a href="http://pear.php.net/">PEAR</a>, que las incluyo en el paquete. Quienes tengan un poco de conocimiento sobre PEAR, podrán quitarlas y utilizar los paquetes de su servidor, y bajarse los que no tengan, en caso de preferencia.<br />
+</p>
+<p>Los datos a configurar en el script, están detallados en el mismo, son un usuario de mail, password, servidor de correo, puerto, path donde se encuentran los paquetes de incluidos en el script, y los datos de login de tu cuenta de del.icio.us.<br />
+</p>
+<p>Luego, en tu servidor deberás indicarle al cron, que y cuando ejecutarlo, en el siguiente ejemplo yo hago que se ejecute cada 15 minutos:<br />
+</p>
+<p>.. code-block:: text
+    15  *   *   *   *   lynx -dump /home/your/host/path/delicious_stumble/stumble2delicious.php<br />
+</p>
+<p>En mi caso prefiero utilizar Lynx en vez de PHP directamente, pero funciona de la misma forma.<br />
+</p>
+<p>Para utilizarlo, es simple, al enviar un mail desde la barra de StumbleUpon cuando te solicita una nota [que debe estar activada esta opción desde la configuración], ahi ingresamos la descripción extendida y los tags separados por un | entre sí. Por ejemplo, para postear el link de PHP.net pondríamos esto:<br />
+</p>
+<p>.. code-block:: text
+    Sitio oficial de PHP, documentación, y demas cositas.|php reference documentation<br />
+</p>
+<p>Esto quiere decir que, la URL va a ser, la enviada por el mail, el titulo también, y la descripción extendida (que es opcional) será <em>Sitio oficial de PHP, documentación, y demás cositas.</em>, y los tags donde se va a clasificar son <em>php reference y documentation</em>.<br />
+</p>
+<p>En caso que no se desee poner ninguna descripción extendida, se ponen solo los tags sin | ni nada.<br />
+Por ejemplo:<br />
+</p>
+<p>.. code-block:: text
+    php reference documentation</p>
+<p>Para instalarlo, simplemente descompriman el .zip en una carpeta de su webserver y configuren los parametros indicados en el script que reside en el root del paquete.<br />
+<a href="">DOWNLOAD</a>.<br />
+Recuerden indicar bien el path de /includes/ que es donde se encuentran los paquetes de PEAR.<br />
+</p>
+<p>Obviamente, es open source, bajo licencias GPL y si se te ocurren mejoras o dudas o algo, son bienvenidas.<br />
+</p>
+<p>Sin más... feliz Stumblious.<br />
+</p>
+                </article>
+                
+            </aside><!-- /#featured -->
+            
+                <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                        <ol id="posts-list" class="hfeed">
+            
+        
+        
+        
+        
+
+        
+         
+            
+            <li><article class="hentry">    
+                <header>
+                        <h1><a href=".././proyectos-en-sourceforge-que-llamaron-mi-atencion.html" rel="bookmark" title="Permalink to Proyectos en SourceForge que llamaron mi atención">Proyectos en SourceForge que llamaron mi atención</a></h1>
+                </header>
+                
+                <div class="entry-content">
+                <footer class="post-info">
+        <abbr class="published" title="2004-12-03T00:00:00">
+                Fri 03 December 2004
+        </abbr>
+
+        
+        <address class="vcard author">
+                By <a class="url fn" href="#">Leandro Ardissone</a>
+        </address>
+        
+<p>In <a href=".././category/Software.html">Software</a>. </p>
+<p>tags: <a href=".././tag/opensource.html">opensource</a></p>
+
+
+</footer><!-- /.post-info -->
+                <p>Éstos son los proyectos que vi en <a href="http://www.sf.net/">SourceForge</a> últimamente y me llamaron mucho la atención, y la mayoría los uso o usé en algún momento.<br />
+</p>
+<p><a href="http://winmerge.sourceforge.net/">WinMerge</a>: una excelente utilidad para comparar archivos de texto y unificar directorios. Muy útil para comparar versiones de proyectos y ver que cambió en cada ...</p>
+                <a class="readmore" href=".././proyectos-en-sourceforge-que-llamaron-mi-atencion.html">read more</a>
+                
+                </div><!-- /.entry-content -->
+            </article></li>
+        
+        
+            <p class="paginator">
+    
+    Page 1 / 1
+    
+</p>
+        
+
+    
+    </ol><!-- /#posts-list -->
+    </section><!-- /#content -->
+
+
+
+        <section id="extras" class="body">
+        
+        
+        
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href=".././feeds/all.atom.xml" rel="alternate">atom feed</a></li>
+                            
+                            <li><a href=".././feeds/all.rss.xml" rel="alternate">rss feed</a></li>
+                            
+
+                        
+                            <li><a href="http://twitter.com/Leech">twitter</a></li>
+                        
+                            <li><a href="http://github.com/lardissone">github</a></li>
+                        
+                        </ul>
+                </div><!-- /.social -->
+        
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://alexis.notmyidea.org/pelican/">pelican</a>, which takes great advantages of <a href="http://python.org">python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://smashingmagazine.com">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+
+
+
+</body>
+</html>
