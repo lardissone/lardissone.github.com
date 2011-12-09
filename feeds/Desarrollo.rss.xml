@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>El Blog de Leech</title><link>http://www.dr-leech.com.ar</link><description></description><atom:link href="http://www.dr-leech.com.ar/feeds/Desarrollo.rss.xml" rel="self"></atom:link><lastBuildDate>Thu, 05 Jan 2006 13:12:00 -0000</lastBuildDate><item><title>Favicons animados</title><link>http://www.dr-leech.com.ar/favicons-animados.html</link><description>&lt;p&gt;Encontré la posta..&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://myvogonpoetry.com/wp/2005/10/10/animated-favicons/"&gt;Acá&lt;/a&gt; alguien explica como hacer &lt;a href="http://en.wikipedia.org/wiki/Favicons"&gt;favicons&lt;/a&gt; animados!&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;Se hace así:&lt;br /&gt;
+&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nb"&gt;link&lt;/span&gt; &lt;span class="n"&gt;href&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;images/favico.gif&amp;quot;&lt;/span&gt; &lt;span class="n"&gt;type&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;image/gif&amp;quot;&lt;/span&gt; &lt;span class="n"&gt;rel&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;icon&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;/&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Que groso! [?]&lt;br /&gt;
+&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Leandro Ardissone</dc:creator><pubDate>Thu, 05 Jan 2006 13:12:00 -0000</pubDate><category>internet</category><category>html</category></item></channel></rss>
