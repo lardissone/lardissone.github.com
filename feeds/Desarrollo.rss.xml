@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>El Blog de Leech</title><link>http://www.dr-leech.com.ar</link><description></description><atom:link href="http://www.dr-leech.com.ar/feeds/Desarrollo.rss.xml" rel="self"></atom:link><lastBuildDate>Thu, 05 Jan 2006 13:12:00 -0000</lastBuildDate><item><title>Favicons animados</title><link>http://www.dr-leech.com.ar/favicons-animados.html</link><description>&lt;p&gt;Encontré la posta..&lt;/p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>El Blog de Leech</title><link>http://www.dr-leech.com.ar</link><description></description><atom:link href="http://www.dr-leech.com.ar/feeds/Desarrollo.rss.xml" rel="self"></atom:link><lastBuildDate>Tue, 26 Sep 2006 15:01:00 -0000</lastBuildDate><item><title>Preparando todo para cocinar el pastel</title><link>http://www.dr-leech.com.ar/preparando-todo-para-cocinar-el-pastel.html</link><description>&lt;p&gt;Encontré este post en &lt;a href="http://cakebaker.42dh.com/2006/09/26/preparations-for-baking-an-application/"&gt;CakeBaker&lt;/a&gt; que explica como Daniel Hofstetter prepara todo el entorno para comenzar con a desarrollar una aplicación usando &lt;a href="http://www.cakephp.org/"&gt;CakePHP&lt;/a&gt;.&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;La verdad me pareció muy interesante.&lt;br /&gt;
+No voy a copiar el post, les dejo el link, si queres vas, sino.. no.&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;Link: &lt;a href="http://cakebaker.42dh.com/2006/09/26/preparations-for-baking-an-application/"&gt;cakebaker | Preparations for baking an application&lt;/a&gt;&lt;br /&gt;
+&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Leandro Ardissone</dc:creator><pubDate>Tue, 26 Sep 2006 15:01:00 -0000</pubDate><category>php</category><category>cakephp</category></item><item><title>Favicons animados</title><link>http://www.dr-leech.com.ar/favicons-animados.html</link><description>&lt;p&gt;Encontré la posta..&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://myvogonpoetry.com/wp/2005/10/10/animated-favicons/"&gt;Acá&lt;/a&gt; alguien explica como hacer &lt;a href="http://en.wikipedia.org/wiki/Favicons"&gt;favicons&lt;/a&gt; animados!&lt;br /&gt;
 &lt;/p&gt;
 &lt;p&gt;Se hace así:&lt;br /&gt;
