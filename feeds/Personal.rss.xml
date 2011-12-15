@@ -1,5 +1,122 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>El Blog de Leech</title><link>http://www.dr-leech.com.ar</link><description></description><atom:link href="http://www.dr-leech.com.ar/feeds/Personal.rss.xml" rel="self"></atom:link><lastBuildDate>Wed, 16 Aug 2006 13:12:00 -0000</lastBuildDate><item><title>Actualicé</title><link>http://www.dr-leech.com.ar/actualice.html</link><description>&lt;p&gt;Ahora actualicé el coso a la última versión estable (2.0.4). No cambiaron mucho desde la versión anterior, pero teniendo en cuenta que la versión que tenía yo antes era la 1.5 cambió mucho.&lt;br /&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>El Blog de Leech</title><link>http://www.dr-leech.com.ar</link><description></description><atom:link href="http://www.dr-leech.com.ar/feeds/Personal.rss.xml" rel="self"></atom:link><lastBuildDate>Mon, 04 Dec 2006 21:40:00 -0000</lastBuildDate><item><title>Curriculum Vitae</title><link>http://www.dr-leech.com.ar/curriculum-vitae.html</link><description>&lt;p&gt;Visita mi Curriculum en Emurse o descargatelo en varios formatos:&lt;br /&gt;
+&lt;/p&gt;
+&lt;style type="text/css"&gt;#emurse_resume_badge_gogomonkey a {color: #3672a4;}#emurse_resume_badge_gogomonkey a:hover {color: #113249;}#emurse_resume_badge_gogomonkey td,#emurse_resume_badge_gogomonkey th { padding: 4px !important; }&lt;/style&gt;
+
+&lt;table id="emurse_resume_badge_gogomonkey" cellspacing="0" cellpadding="4" border="0" style="border: 2px solid #224f6f ;font-family:arial;font-size:11px;"&gt;&lt;tr&gt;&lt;th colspan="3" style="border-bottom: 1px solid #224f6f;font-size:12px;color:#fff;background:#4a7b9d;"&gt;My Resume&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="text-align: center;"&gt;&lt;a href="http://leandroardissone.emurse.com/"&gt;Web&lt;/a&gt;&lt;/td&gt;&lt;td style="text-align: center;"&gt;&lt;a href="http://leandroardissone.emurse.com/download/doc/"&gt;DOC&lt;/a&gt;&lt;/td&gt;&lt;td style="text-align: center;"&gt;&lt;a href="http://leandroardissone.emurse.com/download/pdf/"&gt;PDF&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="text-align: center;"&gt;&lt;a href="http://leandroardissone.emurse.com/download/rtf/"&gt;RTF&lt;/a&gt;&lt;/td&gt;&lt;td style="text-align: center;"&gt;&lt;a href="http://leandroardissone.emurse.com/download/odt/"&gt;ODT&lt;/a&gt;&lt;/td&gt;&lt;td style="text-align: center;"&gt;&lt;a href="http://leandroardissone.emurse.com/download/txt/"&gt;TXT&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th colspan="3"&gt;&lt;a href="http://www.emurse.com"&gt;&lt;img src="http://www.emurse.com/images/badge_powered.gif" alt="powered by emurse" style="width:75px;height:19px;border:0;" width="75" height="19" /&gt;&lt;/a&gt;&lt;/th&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;div style="display:none"&gt;
+  &lt;h2&gt;I am presently looking for freelance/contract programming work that can be done remotely.&lt;/h2&gt;
+  &lt;ul&gt;
+
+    &lt;li&gt;&lt;h3&gt;Personal Information:&lt;/h3&gt;
+        &lt;ul&gt;
+            &lt;li&gt;
+                Leandro Ardissone&lt;br /&gt;
+                Argentina&lt;br /&gt;
+
+                &lt;br /&gt;
+                &lt;strong&gt;Website:&lt;/strong&gt; &lt;a href="http://www.dr-leech.com.ar/" target="_blank" title="Personal weblog"&gt;http://www.dr-leech.com.ar/&lt;/a&gt;&lt;br /&gt;
+            &lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;ul&gt;&lt;/ul&gt;
+
+    &lt;/li&gt;&lt;li&gt;&lt;h3&gt;About me:&lt;/h3&gt;
+        &lt;ul&gt;
+            &lt;li&gt;-I have been programming professionally for more than four years, and have been programming in my spare time for ten years. My professional work is writing web applications using various technologies, and working with web standards. In my personal experiments I have been programming many applications for various needs: IMs, audio, filesystem, XML parsers, and more. I also been worked with audio edition and composition. I am proficient in many programming languages, environments, and operating systems, 
+and can pick up new
+ones in the blink of an eye.
+            &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;h3&gt;Skills:&lt;/h3&gt;
+        &lt;ul&gt;
+
+            &lt;li&gt;
+                You can see my skills in a better organization at my &lt;a href="https://sourceforge.net/people/viewprofile.php?user_id=1167044"&gt;SourceForge profile&lt;/a&gt;.
+            &lt;/li&gt;
+            &lt;li&gt;
+                &lt;strong&gt;Programming Languages:&lt;/strong&gt;&lt;br /&gt;
+                Very experienced with: Python, PHP, ASP, CGI, Perl, Ruby&lt;br /&gt;
+                &lt;em&gt;Significant experience with:&lt;/em&gt; JSP, Cold Fusion, Delphi, .NET
+            &lt;/li&gt;
+
+            &lt;li&gt;
+                &lt;strong&gt;Operating Systems:&lt;/strong&gt;&lt;br /&gt;
+                GNU/Linux (Debian, Slackware, Mandrake, Red Hat, SLS), FreeBSD, Windows3.1/95/98/NT/Me/2000/XP and MS-DOS.
+            &lt;/li&gt;
+            &lt;li&gt;
+                &lt;strong&gt;Graphics Programming:&lt;/strong&gt;&lt;br /&gt;
+                OpenGL, Direct3D
+            &lt;/li&gt;
+            &lt;li&gt;
+
+                &lt;strong&gt;GUI Programming:&lt;/strong&gt;&lt;br /&gt;
+                Win32 API, MFC, X Window System, wxWindows, Python/TkInter
+            &lt;/li&gt;
+            &lt;li&gt;
+                &lt;strong&gt;Web Programming:&lt;/strong&gt;&lt;br /&gt;
+                Python, Django, Zope, PEAR, Mojavi, PHP-MVC, JavaScript, IIS, Apache HTTPd, Jakarta Tomcat, WAP, WML, HTML, XHTML, DHTML, DOM, CSS, XML, XSL, XSLT, XML Schema, W3C, Web Standards.
+            &lt;/li&gt;
+            &lt;li&gt;
+                &lt;strong&gt;Database:&lt;/strong&gt;&lt;br /&gt;
+
+                MongoDB, MySQL, PostgreSQL, Microsoft Access, MS-SQL.
+            &lt;/li&gt;
+            &lt;li&gt;
+                &lt;strong&gt;eLearning:&lt;/strong&gt;&lt;br /&gt;
+                SCORM, AICC, ADL.
+            &lt;/li&gt;
+            &lt;li&gt;
+                &lt;strong&gt;&lt;em&gt;Pluses&lt;/em&gt;:&lt;/strong&gt;&lt;br /&gt;
+
+                Adobe Photoshop, Adobe Illustrator, Adobe AfterFX, Adobe Premier, Newtek Lightwave 3D, Corel Draw.
+            &lt;/li&gt;
+        &lt;/ul&gt;   
+    &lt;/li&gt;
+    &lt;li&gt;&lt;h3&gt;Employment History:&lt;/h3&gt;
+        &lt;ul&gt;
+            &lt;li&gt;
+                Web Developer / Back-end Designer&lt;br /&gt;
+                Pergamino.com&lt;br /&gt;
+
+                1998-2000
+            &lt;/li&gt;
+            &lt;li&gt;
+                Web Developer / Back-end Designer / Databases admin / Consultant / Hosting Administrator&lt;br /&gt;
+                I-Logic Studio&lt;br /&gt;
+                2000-Actually
+            &lt;/li&gt;
+            &lt;li&gt;
+                Freelance Web Developer / Designer&lt;br /&gt;
+
+                Sancassano.com&lt;br /&gt;
+                2001-2003
+            &lt;/li&gt;
+            &lt;li&gt;
+                Freelance Web Developer / Back-end Designer / Databases Designer&lt;br /&gt;
+                eMultiSoft co.&lt;br /&gt;
+                2002-2003
+            &lt;/li&gt;
+
+            &lt;li&gt;
+                Fulltime Developer&lt;br /&gt;
+                AXG Tecnonexo [&lt;a href="http://www.tecnonexo.com/"&gt;Website&lt;/a&gt;]&lt;br /&gt;
+                2003-2004
+            &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+
+    &lt;li&gt;&lt;h3&gt;References:&lt;/h3&gt;
+        &lt;ul&gt;
+            &lt;li&gt;
+                Available on request.
+            &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Leandro Ardissone</dc:creator><pubDate>Mon, 04 Dec 2006 21:40:00 -0000</pubDate><category>personal</category><category>trabajo</category></item><item><title>Actualicé</title><link>http://www.dr-leech.com.ar/actualice.html</link><description>&lt;p&gt;Ahora actualicé el coso a la última versión estable (2.0.4). No cambiaron mucho desde la versión anterior, pero teniendo en cuenta que la versión que tenía yo antes era la 1.5 cambió mucho.&lt;br /&gt;
 &lt;/p&gt;
 &lt;p&gt;Tuve que tirar algunos plugins, o cambiarlos por otros, y además agregué algunos otros.&lt;br /&gt;
 &lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Leandro Ardissone</dc:creator><pubDate>Wed, 16 Aug 2006 13:12:00 -0000</pubDate><category>sitio</category></item><item><title>Barras Bon o Bon</title><link>http://www.dr-leech.com.ar/barras-bon-o-bon.html</link><description>&lt;p&gt;Estoy comenzando a volverme loco.&lt;br /&gt;
