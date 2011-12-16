@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>FARR (Find and Run Robot)</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="./theme/css/main.css" type="text/css" />
+        <link href="./feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="El Blog de Leech ATOM Feed" />
+        
+        <link href="./feeds/all.rss.xml" type="application/atom+xml" rel="alternate" title="El Blog de Leech RSS Feed" />
+        
+
+        
+
+        <!--[if IE]>
+                <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+        <!--[if lte IE 7]>
+                <link rel="stylesheet" type="text/css" media="all" href="./css/ie.css"/>
+                <script src="./js/IE8.js" type="text/javascript"></script><![endif]-->
+
+        <!--[if lt IE 7]>
+                <link rel="stylesheet" type="text/css" media="all" href="./css/ie6.css"/><![endif]-->
+
+</head>
+
+<body id="index" class="home">
+
+        <header id="banner" class="body">
+                <h1><a href=".">El Blog de Leech </a></h1>
+                <nav><ul>
+                
+                
+                
+                
+                
+                    <li ><a href="./category/Tecnología.html">Tecnología</a></li>
+                
+                    <li ><a href="./category/Software.html">Software</a></li>
+                
+                    <li ><a href="./category/Personal.html">Personal</a></li>
+                
+                    <li ><a href="./category/Películas.html">Películas</a></li>
+                
+                    <li ><a href="./category/Música.html">Música</a></li>
+                
+                    <li ><a href="./category/Literatura.html">Literatura</a></li>
+                
+                    <li ><a href="./category/Juegos.html">Juegos</a></li>
+                
+                    <li ><a href="./category/Humor.html">Humor</a></li>
+                
+                    <li class="active"><a href="./category/General.html">General</a></li>
+                
+                    <li ><a href="./category/Gadgets.html">Gadgets</a></li>
+                
+                    <li ><a href="./category/Desarrollo.html">Desarrollo</a></li>
+                
+                </ul></nav>
+        </header><!-- /#banner -->
+                
+<section id="content" class="body">    
+<article>
+        <header> <h1 class="entry-title"><a href="farr-find-and-run-robot.html"
+        rel="bookmark" title="Permalink to FARR (Find and Run Robot)">FARR (Find and Run Robot)</a></h1>  </header>
+        <div class="entry-content">
+        <footer class="post-info">
+        <abbr class="published" title="2007-05-04T16:07:00">
+                Fri 04 May 2007
+        </abbr>
+
+        
+        <address class="vcard author">
+                By <a class="url fn" href="#">Leandro Ardissone</a>
+        </address>
+        
+<p>In <a href="./category/General.html">General</a>. </p>
+<p>tags: <a href="./tag/software.html">software</a><a href="./tag/review.html">review</a></p>
+
+
+</footer><!-- /.post-info -->
+        <p>Muchos de quienes usamos alguna vez Google Desktop notamos que existe una opción muy interesante que es la del popup que aparece cuando apretamos dos veces seguidas la tecla Ctrl (en PC). Es una linea de comandos que nos permite buscar directamente en Google o en nuestra PC.<br />
+Bueno, si bien es básico está bien.<br />
+En este caso quiero presentarles una aplicación que es la delicia de los vagos. Se llama Find and Run Robot (de aquí en mas lo llamaremos FARR por razones obvias, soy vago, me da paja escribir tanto, por algo uso este programa).</p>
+<p>En principio la aplicación cumple el mismo objetivo que la de Google, pero es muchísimo mas configurable.<br />
+Uno puede elegir que configuración de teclas utilizar para activarlo.   Por default, Ctrl + Space vienen definidas, y la tecla de Pause (que tan al inútil es por estos días).</p>
+<p>Al activarlo nos aparece una ventana como esta, con un listado de los programas que ejecutamos mas recientemente:</p>
+<p><img alt="" src="http://drleechmedia.s3.amazonaws.com/shot058.png" /></p>
+<p>Y al comenzar a tipear nos va sugiriendo distintos items del menú Inicio o de directorios que nosotros hayamos definido en las opciones para que busque:</p>
+<p><img alt=" " src="http://drleechmedia.s3.amazonaws.com/shot059.png" /></p>
+<p>La búsqueda es inmediata, pero si esperamos un momento mas, nuevos resultados se van agregando a medida que los va encontrando en los directorios definidos.</p>
+<p>En las opciones podemos configurar el comportamiento de la <strong>interface</strong>, donde podemos elegir que hacer una vez que se eligió un resultado encontrado, que combinaciones de teclas utilizar para invocarlo, si mantener el foco en FARR una vez lanzada la aplicación, etc.:</p>
+<p><a href="http://drleechmedia.s3.amazonaws.com/shot060.png"><img alt="(click para agrandar)" src="http://drleechmedia.s3.amazonaws.com/shot060.thumbnail.png" /></a></p>
+<p>Luego tenemos las opciones visuales, donde podemos cambiar todos los aspectos gráficos y como FARR se comporta gráficamente ante los resultados, podemos cambiar el skin, tamaño de los iconos, forma en que se muestran los resultados, las columnas a mostrar, el path de cada archivo:</p>
+<p><a href="http://drleechmedia.s3.amazonaws.com/shot061.png"><img alt="(click para agrandar)" src="http://drleechmedia.s3.amazonaws.com/shot061.thumbnail.png" /></a></p>
+<p>Algo en que FARR sobresale ante los demás programas que hace cosas similares, es la posibilidad de asignar un puntaje (scoring) que va a determinar la posición del resultado en la lista. Por ejemplo, cuanto mas alto es el puntaje del resultado, en base a distintos filtros establecidos en las opciones, mas arriba va a aparecer en los resultados de la lista. Por default vienen establecidas 5 reglas de puntaje heurístico:</p>
+<ul>
+<li><strong>History File Bonus</strong>: que le da mas puntaje a los archivos que ya buscamos y ejecutamos anteriormente. (Suma 100 puntos)</li>
+<li><strong>Exact Match Bonus</strong>: le suma puntos si la búsqueda corresponde fielmente a un archivo o programa. (Suma 100 puntos)</li>
+<li><strong>Leftmost Match Bonus</strong>: le da mas puntaje si lo que buscamos se encuentra mas a la izquierda del nombre. Por ejemplo si para buscar "expl" comienza encontrando (en mi caso) proexp.exe (Sysinternals Process Explorer, no lo buscó por el nombre porque no lo tengo en mi menú Inicio, pero lo tengo en uno de mis directorios de búsqueda) y luego Internet Explorer, ya que el nombre del primero tiene el patrón de búsqueda mas a la izquierda. (Suma 150 puntos)</li>
+<li><strong>Percentage of Search String Points</strong>: suma puntos por cada letra que encuentra en el nombre. (Suma 25 puntos por letra)</li>
+<li><strong>Whitespace Removal Penalty</strong>: resta puntos por nombres de archivo que sean iguales a lo que buscamos pero sin los espacios. (Resta 50 puntos)</li>
+</ul>
+<p><a href="http://drleechmedia.s3.amazonaws.com/shot062.png"><img alt="(click para agrandar)" src="http://drleechmedia.s3.amazonaws.com/shot062.thumbnail.png" /></a></p>
+<p>Si después de todo este tema de los puntos te cansó o te parece que estamos hablando de un juego RPG, anda dejando de leer lo que sigue.</p>
+<p>Ahora viene el sistema de <strong>puntaje por patrones de búsqued</strong>a. Esto es una de las cosas mas importantes, dado que permite obviar o incluir archivos en las búsquedas. Pensemos por ejemplo, cuantos programas que se instalan tienen su respectivo "Pirufilex 2.5 Uninstall" y esto hará que a la hora de buscar pirufilex nos salgan los dos resultados, el real (el del ejecutable o su acceso directo) y el del desinstalador. Para ello es que existen estos patrones, podemos crear un patrón (en realidad el de este ejemplo ya viene incluido con el programa) que no muestre los resultados que contengan la palabra "uninstall", aclarandole que le reste muchos puntos. Y a su vez podemos incluir archivos que tengan en su nombre <code>leech</code> y darle bastante puntaje porque se lo merece (??), esto hará que busque en los archivos de cualquier extensión y formato pero que contengan la palabra leech, por ej: leech y amigos.jpg.<br />
+Hay que tener cuidado con estos patrones ya que se pueden pisar entre si. Siguiendo el ejemplo de la regla que cree para buscar el texto "leech" que le da 500 puntos a esa búsqueda, pero tenemos otro patrón donde le indicamos que le reste 600 puntos a todos los archivos JPG, en tal caso nuestro archivo no aparece porque pierde 100 puntos pero puede que cumpla con otras reglas heurísticas que le sigan sumando puntos y puede que aparezca en el listado.</p>
+<p><a href="http://drleechmedia.s3.amazonaws.com/shot063.png"><img alt="(click para agrandar)" src="http://drleechmedia.s3.amazonaws.com/shot063.thumbnail.png" /></a></p>
+<p>Cuando definimos los directorios donde debe realizar las búsquedas en primera instancia, también debemos indicarle el puntaje que obtiene la búsqueda en dichos directorios. Por ejemplo, tenemos un directorio con programas útiles a los que accedemos a menudo, a ese directorio le vamos a asignar un puntaje mayor que al menú Inicio, de manera tal que accedemos mas rápido que al resto de los resultados.</p>
+<p><a href="http://drleechmedia.s3.amazonaws.com/shot064.png"><img alt="(click para agrandar)" src="http://drleechmedia.s3.amazonaws.com/shot064.thumbnail.png" /></a></p>
+<p>Y ahora lo mas lindo de todo, la posibilidad de crear alias a cualquier cosa. Esto nos permite definir comandos únicos para realizar acciones especifica como buscar en la Wikipedia, o torrents (como es el ejemplo que acá voy a dar). Para buscar torrents tengo definida este alias:</p>
+<p><a href="http://drleechmedia.s3.amazonaws.com/shot066.png"><img alt="(click para agrandar)" src="http://drleechmedia.s3.amazonaws.com/shot066.thumbnail.png" /></a></p>
+<p>Y una vez que comenzamos a escribir "tor loquequeramos", nos devuelve una lista de las posibles opciones de búsqueda que tenemos para realizar, y al acceder a cualquiera de los resultados nos lleva a nuestro browser con esa búsqueda en dicha página de torrents.</p>
+<p><img alt="tor" src="http://drleechmedia.s3.amazonaws.com/shot067.png" /></p>
+<p>El programa fue creado por <a href="http://www.donationcoder.com/Software/Mouser/index.html">Mouser</a> (Jesse) quien está a cargo del maravilloso sitio <a href="http://www.donationcoder.com/">DonationCoder.com</a> que tantas alegrías y pasatiempos me dió..<br />
+Próximamente sale una versión nueva del FARR, pero no podía dejar de comentar sobre la actual.</p>
+<p><strong>Conclusión</strong>: He notado que cada día estoy mas vago, y todo me cuesta mas. Hasta ir a buscar tal aplicación me cuesta mas que antes. El objetivo diario es descubrir la forma de gastar menos tiempo en acciones innecesarias.</p>
+<p><strong>Puntaje</strong>: 5/5<br />
+<strong>URL</strong>: <a href="http://www.donationcoder.com/Software/Mouser/findrun/index.html">http://www.donationcoder.com/Software/Mouser/findrun/index.html</a><br />
+<strong>Tipo</strong>: Donationware (Si te gusta, doná. Pide una clave de activación, pero la podes obtener registrandote en el sitio, lo mismo para cualquier programa del sitio, de los cuales ya voy a hablar mas a futuro)<br />
+<strong>Tamaño</strong>: 1.6mb</p>
+        </div><!-- /.entry-content -->
+        
+
+</article>
+</section>
+
+        <section id="extras" class="body">
+        
+        
+        
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="./feeds/all.atom.xml" rel="alternate">atom feed</a></li>
+                            
+                            <li><a href="./feeds/all.rss.xml" rel="alternate">rss feed</a></li>
+                            
+
+                        
+                            <li><a href="http://twitter.com/Leech">twitter</a></li>
+                        
+                            <li><a href="http://github.com/lardissone">github</a></li>
+                        
+                        </ul>
+                </div><!-- /.social -->
+        
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://alexis.notmyidea.org/pelican/">pelican</a>, which takes great advantages of <a href="http://python.org">python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://smashingmagazine.com">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+
+
+
+</body>
+</html>

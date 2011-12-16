@@ -65,8 +65,80 @@
         
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href=".././phpinfo-vs-cakeinfo.html">phpinfo() vs cakeinfo()</a></h1> 
+                    <h1 class="entry-title"><a href=".././clases-y-librerias-esenciales-de-php.html">Clases y librerías esenciales de PHP</a></h1> 
                     <footer class="post-info">
+        <abbr class="published" title="2007-04-02T18:45:00">
+                Mon 02 April 2007
+        </abbr>
+
+        
+        <address class="vcard author">
+                By <a class="url fn" href="#">Leandro Ardissone</a>
+        </address>
+        
+<p>In <a href=".././category/Desarrollo.html">Desarrollo</a>. </p>
+<p>tags: <a href=".././tag/php.html">php</a></p>
+
+
+</footer><!-- /.post-info --><p>Muchas veces necesitamos hacer algún script rápido o algo custom que no se justifica utilizar un framework como CakePHP (aunque se pueden instalar como helpers o componentes del mismo), es aquí cuando nos conviene utilizar librerías o clases para simplificar (y/o asegurar) nuestro desarrollo.</p>
+<p>Estas son algunas de las clases que uso en estos casos. Sin un orden en particular, solo las que encontré en mis bookmarks.</p>
+<p><a href="http://www.swiftmailer.org/">SwiftMailer</a>: Cuando notamos que <a href="http://lwest.free.fr/doc/php/lib/index.php3?page=mail&amp;lang=en">LibMail</a> queda chico y phpMailer viejo.</p>
+<p><a href="http://www.woyano.com/jv/ezsql">ezSQL</a>: Una clase para trabajar con bases de datos, sinceramente prefiero la <a href="http://pear.php.net/package/DB">DB</a> de <a href="http://pear.php.net/">PEAR</a>, pero esta tiene sus cositas, otra es la <a href="http://adodb.sourceforge.net/">ADOdb</a> (o <a href="http://adodblite.sourceforge.net/index.php">ADOdb Lite</a>).</p>
+<p><a href="http://www.thewebmasters.net/php/Logger.phtml">Logger</a>: Porque no queremos que nadie sepa de nuestros errores, o debug.</p>
+<p><a href="http://mike.teczno.com/json.html">JSON-PHP</a>: Porque JSON es muy sexy.</p>
+<p><a href="http://code.google.com/p/phpsprockets/">phpsprockets</a>: A veces el generar HTML suele ser una tarea tediosa.</p>
+<p><a href="http://ez.no/ezcomponents">eZComponents</a>: Varios componentes que cumplen con lo que prometen: Archive, Cache, Configuration, Debug, EventLog, Feed, ImageConversion, etc.</p>
+<p><a href="http://qbnz.com/highlighter/">GeSHi</a>: Para mostrar tu código con colores bonitos.</p>
+<p><a href="http://simplepie.org/">SimplePie</a>: El mejor parser de RSS y feeds, lejos.</p>
+<p><a href="http://www.aditus.nu/jpgraph/">JpGraph</a>: Estadisticas? Ok, gráficos. Otra puede ser <a href="http://www.maani.us/charts/index.php">ésta</a>. Después sino existen las <a href="http://sparkline.org/">Sparklines</a>, para pequeños gráficos.</p>
+<p><a href="http://www.bitfolge.de/rsscreator-en.html">FeedCreator</a>: Para crear feeds RSS de manera fácil.</p>
+<p><a href="http://spyc.sourceforge.net/">spyc</a>: <a href="http://www.yaml.org/">YAML</a> al alcance de tu PHP.</p>
+<p><a href="http://www.digitaljunkies.ca/dompdf/">DomPDF</a>: Convertir HTML a PDF, nunca fue tan fácil.</p>
+<p><a href="http://www.fpdf.org/">FPDF</a>: Porque no todo se basa en HTML, esta librería permite generar PDF pasandole coordenadas métricas, especial para impresión.</p>
+<p><a href="http://scripts.incutio.com/xmlrpc/">XML-RPC</a>: La infaltable e indiscutible librería server/cliente de XML-RPC, para quienes les gusta dar un poquito mas de lo que se ve.</p>
+<p><a href="http://xdebug.org/">XDebug</a>: Para ver que está pasando en nuestro desarrollo. (Otra <a href="http://dbug.ospinto.com/">dBug</a>, un poco mas Web2.0)</p>
+<p><a href="http://wiki.jonnay.net/bunny/bunnyregex">Bunny RegEx</a>: Regular Expressions para idiotas (muy útil para mí, claro).</p>
+<p><a href="http://www.verot.net/php_class_upload_overview.htm">class.upload.php</a>: Para subir y manipular imagenes.</p>
+<p>Y acá los de <a href="http://pear.php.net/">PEAR</a> que merecen una sección especial:<br />
+</p>
+<ul>
+<li><a href="http://pear.php.net/package/Calendar">Calendar</a>: como su nombre lo indica, un montón de utilidades para trabajar con calendarios.<br />
+</li>
+<li><a href="http://pear.php.net/package/Date">Date</a>: nunca mas tareas con fechas complicadas</li>
+<li><a href="http://pear.php.net/package/Text_CAPTCHA">Text_CAPTCHA</a>: para los spammers con amor.</li>
+<li><a href="http://pear.php.net/package/Text_Password">Text_Password</a>: para la creación de contraseñas con onda.</li>
+<li><a href="http://pear.php.net/package/XML_Parser">XML_Parser</a>: para esas cositas que los programadores odiamos de XML. (Aguante JSON!)</li>
+<li><a href="http://pear.php.net/package/DB">DB</a>: para trabajar con bases de datos con un poco mas de seguridad que lo usual.</li>
+<li><a href="http://pear.php.net/package/HTML_QuickForm">HTML_QuickForm</a>: para la creación, validación y proceso de formularios.</li>
+<li><a href="http://pear.php.net/package/Cache_Lite">Cache_Lite</a>: a veces necesitamos ser un poco generosos con nuestro servidor.</li>
+</ul>
+<p>Una gran utilidad es el <a href="http://www.phpobjectgenerator.com/">PHP Object Generator</a>, que es una aplicación que en base a los parámetros de la base de datos y nombre de objetos que le indiques genera el código PHP para manejar dicha base de datos.</p>
+<p>Seguramente me olvido de alguna, pero bueno, todo no se puede.</p>
+<p>Contame cuales usas vos.</p>
+                </article>
+                
+            </aside><!-- /#featured -->
+            
+                <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                        <ol id="posts-list" class="hfeed">
+            
+        
+        
+        
+        
+
+        
+         
+            
+            <li><article class="hentry">    
+                <header>
+                        <h1><a href=".././phpinfo-vs-cakeinfo.html" rel="bookmark" title="Permalink to phpinfo() vs cakeinfo()">phpinfo() vs cakeinfo()</a></h1>
+                </header>
+                
+                <div class="entry-content">
+                <footer class="post-info">
         <abbr class="published" title="2007-02-19T16:13:00">
                 Mon 19 February 2007
         </abbr>
@@ -80,21 +152,13 @@
 <p>tags: <a href=".././tag/cakephp.html">cakephp</a><a href=".././tag/php.html">php</a></p>
 
 
-</footer><!-- /.post-info --><p>Todos conocemos la función phpinfo() de PHP que nos ofrece información sobre la instalación de PHP en el sistema.<br />
-Bueno, me topé con esta nueva función para CakePHP, cakeinfo(). Que, cómo phpinfo(), nos brinda detallada información, en este caso del proyecto actual en CakePHP. Información sobre los modelos y constructores corriendo, helpers en la instalación, etc.<br />
-Funciona tan solo agregando el archivo <a href="http://www.1x1.jp/blog/download/cakeinfo-0.1.0.zip">cakeinfo.php</a> en el directorio de la app/root.</p>
-<p>La función fue creada por <a href="http://www.1x1.jp/blog/">Masashi Shinbara</a>, y se puede ver en funcionamiento <a href="http://www.1x1.jp/blog/soft/cakeinfo.php.html">acá</a>.</p>
-<p>Via: <a href="http://cakebaker.42dh.com/2007/01/16/cakeinfo/">cakebaker</a>.</p>
-                </article>
+</footer><!-- /.post-info -->
+                <p>Todos conocemos la función phpinfo() de PHP que nos ofrece información sobre la instalación de PHP en el sistema.<br />
+Bueno, me topé con esta nueva función para CakePHP, cakeinfo(). Que, cómo phpinfo(), nos brinda detallada información, en este caso del proyecto actual en CakePHP. Información sobre los modelos y constructores ...</p>
+                <a class="readmore" href=".././phpinfo-vs-cakeinfo.html">read more</a>
                 
-            </aside><!-- /#featured -->
-            
-                <section id="content" class="body">
-                    <h1>Other articles</h1>
-                    <hr />
-                        <ol id="posts-list" class="hfeed">
-            
-        
+                </div><!-- /.entry-content -->
+            </article></li>
         
         
         
@@ -194,46 +258,6 @@ Para quienes no sepan que es OpenID, puedo definirlo en unas palabras como: <str
 </footer><!-- /.post-info -->
                 <p>Como se viene Navidad, y todos esperamos que alguien se acuerde y nos regale algo que realmente nos gusta, y no algo que después termine tirado en algun rincón, me tomé el tiempo de hacer un plugin para <a href="http://www.wordpress.org/">Wordpress</a> que muestra los últimos items que agregas a tu cuenta de ...</p>
                 <a class="readmore" href=".././wishlists-plugin-para-wordpress.html">read more</a>
-                
-                </div><!-- /.entry-content -->
-            </article></li>
-        
-        
-        
-
-        
-         
-            
-            <li><article class="hentry">    
-                <header>
-                        <h1><a href=".././wp-plugins.html" rel="bookmark" title="Permalink to WP Plugins">WP Plugins</a></h1>
-                </header>
-                
-                <div class="entry-content">
-                <footer class="post-info">
-        <abbr class="published" title="2006-12-02T06:36:00">
-                Sat 02 December 2006
-        </abbr>
-
-        
-        <address class="vcard author">
-                By <a class="url fn" href="#">Leandro Ardissone</a>
-        </address>
-        
-<p>In <a href=".././category/General.html">General</a>. </p>
-<p>tags: <a href=".././tag/desarrollo.html">desarrollo</a><a href=".././tag/proyectos.html">proyectos</a><a href=".././tag/wp.html">wp</a><a href=".././tag/php.html">php</a></p>
-
-
-</footer><!-- /.post-info -->
-                <p>He aquí una colección de los plugins para Wordpress que voy haciendo.<br />
-</p>
-<h1>Wishlists</h1>
-<p><strong>Version 0.2b</strong><br />
-</p>
-<p><em>Update: <a href="http://www.nooby.com.ar/">Guido</a>, me hizo notar que traía conflictos con otros plugins que usen la librería SimplePie, así que quedó arreglado en esta versión.</em><br />
-</p>
-<p>Este plugin sirve para mostrar algunos productos de las listas de ...</p>
-                <a class="readmore" href=".././wp-plugins.html">read more</a>
                 
                 </div><!-- /.entry-content -->
             </article></li>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Clases y librerías esenciales de PHP</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="./theme/css/main.css" type="text/css" />
+        <link href="./feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="El Blog de Leech ATOM Feed" />
+        
+        <link href="./feeds/all.rss.xml" type="application/atom+xml" rel="alternate" title="El Blog de Leech RSS Feed" />
+        
+
+        
+
+        <!--[if IE]>
+                <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+        <!--[if lte IE 7]>
+                <link rel="stylesheet" type="text/css" media="all" href="./css/ie.css"/>
+                <script src="./js/IE8.js" type="text/javascript"></script><![endif]-->
+
+        <!--[if lt IE 7]>
+                <link rel="stylesheet" type="text/css" media="all" href="./css/ie6.css"/><![endif]-->
+
+</head>
+
+<body id="index" class="home">
+
+        <header id="banner" class="body">
+                <h1><a href=".">El Blog de Leech </a></h1>
+                <nav><ul>
+                
+                
+                
+                
+                
+                    <li ><a href="./category/Tecnología.html">Tecnología</a></li>
+                
+                    <li ><a href="./category/Software.html">Software</a></li>
+                
+                    <li ><a href="./category/Personal.html">Personal</a></li>
+                
+                    <li ><a href="./category/Películas.html">Películas</a></li>
+                
+                    <li ><a href="./category/Música.html">Música</a></li>
+                
+                    <li ><a href="./category/Literatura.html">Literatura</a></li>
+                
+                    <li ><a href="./category/Juegos.html">Juegos</a></li>
+                
+                    <li ><a href="./category/Humor.html">Humor</a></li>
+                
+                    <li ><a href="./category/General.html">General</a></li>
+                
+                    <li ><a href="./category/Gadgets.html">Gadgets</a></li>
+                
+                    <li class="active"><a href="./category/Desarrollo.html">Desarrollo</a></li>
+                
+                </ul></nav>
+        </header><!-- /#banner -->
+                
+<section id="content" class="body">    
+<article>
+        <header> <h1 class="entry-title"><a href="clases-y-librerias-esenciales-de-php.html"
+        rel="bookmark" title="Permalink to Clases y librerías esenciales de PHP">Clases y librerías esenciales de PHP</a></h1>  </header>
+        <div class="entry-content">
+        <footer class="post-info">
+        <abbr class="published" title="2007-04-02T18:45:00">
+                Mon 02 April 2007
+        </abbr>
+
+        
+        <address class="vcard author">
+                By <a class="url fn" href="#">Leandro Ardissone</a>
+        </address>
+        
+<p>In <a href="./category/Desarrollo.html">Desarrollo</a>. </p>
+<p>tags: <a href="./tag/php.html">php</a></p>
+
+
+</footer><!-- /.post-info -->
+        <p>Muchas veces necesitamos hacer algún script rápido o algo custom que no se justifica utilizar un framework como CakePHP (aunque se pueden instalar como helpers o componentes del mismo), es aquí cuando nos conviene utilizar librerías o clases para simplificar (y/o asegurar) nuestro desarrollo.</p>
+<p>Estas son algunas de las clases que uso en estos casos. Sin un orden en particular, solo las que encontré en mis bookmarks.</p>
+<p><a href="http://www.swiftmailer.org/">SwiftMailer</a>: Cuando notamos que <a href="http://lwest.free.fr/doc/php/lib/index.php3?page=mail&amp;lang=en">LibMail</a> queda chico y phpMailer viejo.</p>
+<p><a href="http://www.woyano.com/jv/ezsql">ezSQL</a>: Una clase para trabajar con bases de datos, sinceramente prefiero la <a href="http://pear.php.net/package/DB">DB</a> de <a href="http://pear.php.net/">PEAR</a>, pero esta tiene sus cositas, otra es la <a href="http://adodb.sourceforge.net/">ADOdb</a> (o <a href="http://adodblite.sourceforge.net/index.php">ADOdb Lite</a>).</p>
+<p><a href="http://www.thewebmasters.net/php/Logger.phtml">Logger</a>: Porque no queremos que nadie sepa de nuestros errores, o debug.</p>
+<p><a href="http://mike.teczno.com/json.html">JSON-PHP</a>: Porque JSON es muy sexy.</p>
+<p><a href="http://code.google.com/p/phpsprockets/">phpsprockets</a>: A veces el generar HTML suele ser una tarea tediosa.</p>
+<p><a href="http://ez.no/ezcomponents">eZComponents</a>: Varios componentes que cumplen con lo que prometen: Archive, Cache, Configuration, Debug, EventLog, Feed, ImageConversion, etc.</p>
+<p><a href="http://qbnz.com/highlighter/">GeSHi</a>: Para mostrar tu código con colores bonitos.</p>
+<p><a href="http://simplepie.org/">SimplePie</a>: El mejor parser de RSS y feeds, lejos.</p>
+<p><a href="http://www.aditus.nu/jpgraph/">JpGraph</a>: Estadisticas? Ok, gráficos. Otra puede ser <a href="http://www.maani.us/charts/index.php">ésta</a>. Después sino existen las <a href="http://sparkline.org/">Sparklines</a>, para pequeños gráficos.</p>
+<p><a href="http://www.bitfolge.de/rsscreator-en.html">FeedCreator</a>: Para crear feeds RSS de manera fácil.</p>
+<p><a href="http://spyc.sourceforge.net/">spyc</a>: <a href="http://www.yaml.org/">YAML</a> al alcance de tu PHP.</p>
+<p><a href="http://www.digitaljunkies.ca/dompdf/">DomPDF</a>: Convertir HTML a PDF, nunca fue tan fácil.</p>
+<p><a href="http://www.fpdf.org/">FPDF</a>: Porque no todo se basa en HTML, esta librería permite generar PDF pasandole coordenadas métricas, especial para impresión.</p>
+<p><a href="http://scripts.incutio.com/xmlrpc/">XML-RPC</a>: La infaltable e indiscutible librería server/cliente de XML-RPC, para quienes les gusta dar un poquito mas de lo que se ve.</p>
+<p><a href="http://xdebug.org/">XDebug</a>: Para ver que está pasando en nuestro desarrollo. (Otra <a href="http://dbug.ospinto.com/">dBug</a>, un poco mas Web2.0)</p>
+<p><a href="http://wiki.jonnay.net/bunny/bunnyregex">Bunny RegEx</a>: Regular Expressions para idiotas (muy útil para mí, claro).</p>
+<p><a href="http://www.verot.net/php_class_upload_overview.htm">class.upload.php</a>: Para subir y manipular imagenes.</p>
+<p>Y acá los de <a href="http://pear.php.net/">PEAR</a> que merecen una sección especial:<br />
+</p>
+<ul>
+<li><a href="http://pear.php.net/package/Calendar">Calendar</a>: como su nombre lo indica, un montón de utilidades para trabajar con calendarios.<br />
+</li>
+<li><a href="http://pear.php.net/package/Date">Date</a>: nunca mas tareas con fechas complicadas</li>
+<li><a href="http://pear.php.net/package/Text_CAPTCHA">Text_CAPTCHA</a>: para los spammers con amor.</li>
+<li><a href="http://pear.php.net/package/Text_Password">Text_Password</a>: para la creación de contraseñas con onda.</li>
+<li><a href="http://pear.php.net/package/XML_Parser">XML_Parser</a>: para esas cositas que los programadores odiamos de XML. (Aguante JSON!)</li>
+<li><a href="http://pear.php.net/package/DB">DB</a>: para trabajar con bases de datos con un poco mas de seguridad que lo usual.</li>
+<li><a href="http://pear.php.net/package/HTML_QuickForm">HTML_QuickForm</a>: para la creación, validación y proceso de formularios.</li>
+<li><a href="http://pear.php.net/package/Cache_Lite">Cache_Lite</a>: a veces necesitamos ser un poco generosos con nuestro servidor.</li>
+</ul>
+<p>Una gran utilidad es el <a href="http://www.phpobjectgenerator.com/">PHP Object Generator</a>, que es una aplicación que en base a los parámetros de la base de datos y nombre de objetos que le indiques genera el código PHP para manejar dicha base de datos.</p>
+<p>Seguramente me olvido de alguna, pero bueno, todo no se puede.</p>
+<p>Contame cuales usas vos.</p>
+        </div><!-- /.entry-content -->
+        
+
+</article>
+</section>
+
+        <section id="extras" class="body">
+        
+        
+        
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="./feeds/all.atom.xml" rel="alternate">atom feed</a></li>
+                            
+                            <li><a href="./feeds/all.rss.xml" rel="alternate">rss feed</a></li>
+                            
+
+                        
+                            <li><a href="http://twitter.com/Leech">twitter</a></li>
+                        
+                            <li><a href="http://github.com/lardissone">github</a></li>
+                        
+                        </ul>
+                </div><!-- /.social -->
+        
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://alexis.notmyidea.org/pelican/">pelican</a>, which takes great advantages of <a href="http://python.org">python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://smashingmagazine.com">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+
+
+
+</body>
+</html>
