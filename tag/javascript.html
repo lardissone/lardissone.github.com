@@ -65,8 +65,54 @@
         
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href=".././3-razones-para-porque-usar-jquery.html">3 razones para porqué usar jQuery</a></h1> 
+                    <h1 class="entry-title"><a href=".././jquery-ui-los-componentes-graficos-de-jquery.html">jQuery UI, los componentes gráficos de jQuery</a></h1> 
                     <footer class="post-info">
+        <abbr class="published" title="2007-09-17T20:15:00">
+                Mon 17 September 2007
+        </abbr>
+
+        
+        <address class="vcard author">
+                By <a class="url fn" href="#">Leandro Ardissone</a>
+        </address>
+        
+<p>In <a href=".././category/Desarrollo.html">Desarrollo</a>. </p>
+<p>tags: <a href=".././tag/jquery.html">jquery</a><a href=".././tag/javascript.html">javascript</a></p>
+
+
+</footer><!-- /.post-info --><p><a href="http://jquery.com/"><img alt="jQuery" src="http://drleechmedia.s3.amazonaws.com/shot429.png" /></a><br />
+<a href="http://jquery.com/">jQuery</a> lanzó una nueva librería para crear aplicaciones visuales más fácilmente que denominaron jQuery UI (por User Interface, claro). Consta de un aprovechamiento de las funciones que ya tenía jQuery en su librería y una demostración de las mismas.</p>
+<p><a href="http://ui.jquery.com/"><img alt="UI" src="http://drleechmedia.s3.amazonaws.com/shot428.png" /></a></p>
+<p>La página tiene un diseño muy bonito y los ejemplos están muy claros.
+Además incluye unos widgets que antes se encontraban como plugins externos de jQuery, como ser el accordion (para crear menus o listados auto expandibles), calendar (para ingresar fechas en formularios de manera rápida), dialog (para crear ventanas/popups de aviso o interacción), slider (para barras de deslizamiento), table (para tablas ordenables via javascript) y tabs (para navegación por solapas). Estos son los oficiales por el momento, pero ya se encuentran en desarrollo los siguientes: Menu, Form Controls, Tree, Splitter, Rich Text Editor, y Uploader, que se van a ir agregando a medida que se terminen de testear.</p>
+<p>También agregaron algunos efectos nuevos como: magnifier (efecto lupa) y shadow (efecto de sombra).</p>
+<p>La verdad que un laburo increible.</p>
+<p>Vamos <a href="http://jquery.com/">jQuery</a> todavía! (Cómo te quedó el ojo prototype.js?) ;)</p>
+<p>Link: <a href="http://ui.jquery.com/">jQuery UI</a></p>
+                </article>
+                
+            </aside><!-- /#featured -->
+            
+                <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                        <ol id="posts-list" class="hfeed">
+            
+        
+        
+        
+        
+
+        
+         
+            
+            <li><article class="hentry">    
+                <header>
+                        <h1><a href=".././3-razones-para-porque-usar-jquery.html" rel="bookmark" title="Permalink to 3 razones para porqué usar jQuery">3 razones para porqué usar jQuery</a></h1>
+                </header>
+                
+                <div class="entry-content">
+                <footer class="post-info">
         <abbr class="published" title="2007-06-01T15:14:00">
                 Fri 01 June 2007
         </abbr>
@@ -80,40 +126,16 @@
 <p>tags: <a href=".././tag/javascript.html">javascript</a><a href=".././tag/jquery.html">jquery</a></p>
 
 
-</footer><!-- /.post-info --><p>Desde el principio que me volví fanático de la maravillosa librería de javascript <a href="http://jquery.com/">jQuery</a>. Lo cual me volvió un tanto vago a la hora de programar javascript sin usar la ayuda de esta librería.</p>
+</footer><!-- /.post-info -->
+                <p>Desde el principio que me volví fanático de la maravillosa librería de javascript <a href="http://jquery.com/">jQuery</a>. Lo cual me volvió un tanto vago a la hora de programar javascript sin usar la ayuda de esta librería.</p>
 <p>En <a href="http://www.javascriptkata.com/2007/05/29/3-reasons-why-i-use-jquery/">este sitio</a> explican cuales son las principales tres razones de porque utilizar <a href="http://jquery.com/">jQuery</a>.</p>
 <blockquote>
 <ol>
-<li><strong>Selectores</strong>: jQuery soporta muchos selectores. Y cuando digo un muchos, realmente quiero decir muchos. Primero, están los selectores CSS. Solo debés aplicar lo que sabes de <a href="http://docs.jquery.com/Selectors#CSS_Selectors">CSS</a> y podes usar muchos selectores complejos. 
-Segundo, están los selectores <a href="http://docs.jquery.com/Selectors#XPath_Selectors">XPath</a>. Cuando era joven, escribí mucho XSL. Y cuando digo mucho, estoy diciendo mucho. XSL hace un uso intensivo de XPath. Porque XHTML es básicamente XML, por esto podemos usar XPath para navegar fácilmente a través del DOM. El problema era que antes que jQuery, nada podía hacerlo. Ahora podemos!
-En comparación, prototype solo tiene el comando <code>$('ID')</code> para seleccionar un elemento. Ouch!</li>
-<li><strong>Los Atributos</strong>: Es fácil para <a href="http://docs.jquery.com/DOM/Attributes">agregar o quitar atributos</a> a los elementos. Uso esto cuando quiero crear nuevos elementos o cuando necesito agregarle/quitarle una clase CSS a un elemento. Lo más interesante es que podes encadenar los comandos y va a funcionar.
-<code>$("div").attr("title", "Esto es un div").addClass("newClass");</code><br />
-Podes encadenar la cantidad que quieras.</li>
-<li><strong>Ajax y JSON</strong>: Otra vez, <a href="http://docs.jquery.com/Ajax">Ajax</a> es ahora tan fácil como 1,2,3. Escribí un <a href="http://www.javascriptkata.com/2007/05/08/how-to-use-json/">artículo sobre JSON</a> y pensé, no existe una alternativa real a JSON. jQuery te ayuda con esto.<br />
-Con <a href="http://www.prototypejs.org/learn/json">prototype</a> esto es un poco mas complejo.</li>
-</ol>
-</blockquote>
-<div class="codehilite"><pre><span class="nv">$</span><span class="err">.</span><span class="nv">getJSON</span><span class="p">(</span><span class="s">&quot;http://www.thesite.com/thejson&quot;</span><span class="p">,</span>
-<span class="n">function</span><span class="p">(</span><span class="n">json</span><span class="p">){</span>
-    <span class="n">alert</span><span class="p">(</span><span class="s">&quot;I received the json and put it in the json var : &quot;</span> <span class="o">+</span> <span class="n">json</span><span class="o">.</span><span class="n">toString</span><span class="p">());</span>
-<span class="p">}</span>
-<span class="p">);</span>
-</pre></div>
-
-
-<p>Link: <a href="http://www.javascriptkata.com/2007/05/29/3-reasons-why-i-use-jquery/">3 reasons why I use jQuery</a><br />
-Via: <a href="http://www.anieto2k.com/2007/05/31/3-motivos-por-los-que-decidirte-por-jquery/">aNieto2K</a></p>
-                </article>
+<li><strong>Selectores</strong>: jQuery ...</li></ol></blockquote>
+                <a class="readmore" href=".././3-razones-para-porque-usar-jquery.html">read more</a>
                 
-            </aside><!-- /#featured -->
-            
-                <section id="content" class="body">
-                    <h1>Other articles</h1>
-                    <hr />
-                        <ol id="posts-list" class="hfeed">
-            
-        
+                </div><!-- /.entry-content -->
+            </article></li>
         
         
         
