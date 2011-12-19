@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Moviendo "Documents and Settings" a otra partición en Windows XP</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="./theme/css/main.css" type="text/css" />
+        <link href="./feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="El Blog de Leech ATOM Feed" />
+        
+        <link href="./feeds/all.rss.xml" type="application/atom+xml" rel="alternate" title="El Blog de Leech RSS Feed" />
+        
+
+        
+
+        <!--[if IE]>
+                <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+        <!--[if lte IE 7]>
+                <link rel="stylesheet" type="text/css" media="all" href="./css/ie.css"/>
+                <script src="./js/IE8.js" type="text/javascript"></script><![endif]-->
+
+        <!--[if lt IE 7]>
+                <link rel="stylesheet" type="text/css" media="all" href="./css/ie6.css"/><![endif]-->
+
+</head>
+
+<body id="index" class="home">
+
+        <header id="banner" class="body">
+                <h1><a href=".">El Blog de Leech </a></h1>
+                <nav><ul>
+                
+                
+                
+                
+                
+                    <li ><a href="./category/Tecnología.html">Tecnología</a></li>
+                
+                    <li ><a href="./category/Software.html">Software</a></li>
+                
+                    <li ><a href="./category/Personal.html">Personal</a></li>
+                
+                    <li ><a href="./category/Películas.html">Películas</a></li>
+                
+                    <li ><a href="./category/Música.html">Música</a></li>
+                
+                    <li ><a href="./category/Literatura.html">Literatura</a></li>
+                
+                    <li ><a href="./category/Juegos.html">Juegos</a></li>
+                
+                    <li ><a href="./category/Humor.html">Humor</a></li>
+                
+                    <li class="active"><a href="./category/General.html">General</a></li>
+                
+                    <li ><a href="./category/Gadgets.html">Gadgets</a></li>
+                
+                    <li ><a href="./category/Desarrollo.html">Desarrollo</a></li>
+                
+                </ul></nav>
+        </header><!-- /#banner -->
+                
+<section id="content" class="body">    
+<article>
+        <header> <h1 class="entry-title"><a href="moviendo-documents-and-settings-a-otra-particion-en-windows-xp.html"
+        rel="bookmark" title="Permalink to Moviendo "Documents and Settings" a otra partición en Windows XP">Moviendo "Documents and Settings" a otra partición en Windows XP</a></h1>  </header>
+        <div class="entry-content">
+        <footer class="post-info">
+        <abbr class="published" title="2007-08-14T17:20:00">
+                Tue 14 August 2007
+        </abbr>
+
+        
+        <address class="vcard author">
+                By <a class="url fn" href="#">Leandro Ardissone</a>
+        </address>
+        
+<p>In <a href="./category/General.html">General</a>. </p>
+<p>tags: <a href="./tag/windows.html">windows</a><a href="./tag/tips.html">tips</a></p>
+
+
+</footer><!-- /.post-info -->
+        <p>Anoche un amigo andaba necesitando mover los perfiles de usuarios y todas sus pertenencias a otra partición así podía instalar algún programa para bloquear que los usuarios instalen cosas o modifiquen algo del sistema en el disco principal, entonces colocando el perfil en otro disco o partición bloquearía toda la partición del sistema y software dejando la nueva partición para que los usuarios guarden sus pertenencias y modifiquen su perfil a gusto.</p>
+<p>El problema que Windows por default no permite cambiar de lugar el directorio de "Documents and Settings" (donde se encuentran los perfiles de usuarios, Mis Documentos, Escritorio, Menú Inicio, etc.), que raro no?</p>
+<p>Bueno, por lo que decidí recurrir al IRC (siempre salvando las papas la gente del IRC), la gente del canal #Windows en Freenode me dieron la posta, y a continuación detallo como hacerlo:</p>
+<ul>
+<li>Primero debes copiar toda la "carpeta" (tenía que hacerlo, no me gusta llamarlas Carpetas) <code>Documents and Settings</code> adonde vos quieras, pero para que quede bien copiada debes hacerlo desde una consola de DOS (<code>Inicio -&gt; Ejecutar -&gt; Cmd</code>) y poniendo el siguiente comando:<br />
+<code>XCOPY "C:\Documents and Settings\*.*" "D:\Documents and Settings" /E/C/H/K/X</code></li>
+<li>Suponiendo que D: es la nueva partición donde van a estar los perfiles.
+Luego tenemos que editar algo en el registro, para eso iniciamos el Editor del Registro (Inicio -&gt; Ejecutar -&gt; Regedit.exe) y buscamos la siguiente carpeta:<br />
+<code>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsNT\CurrentVersion\ProfileList</code><br />
+Y cambiamos ahí mismo cualquier referencia a <code>C:\Documents and Settings</code> a <code>D:\Documents and Settings</code> (en algunos Windows suele decir: <code>%SystemDrive%\Documents and Settings</code>, asi que cambiar <code>%SystemDrive%</code> por <code>D:</code>). También puede suceder que dentro de <code>ProfileList</code> hayan otras carpetas, por lo que debemos fijarnos bien y modificar ahí dentro por otras entradas con la antigua ruta. Fijarse también las entradas de <code>ProfileImagePath</code>, que también deben apuntar a la nueva ruta.</li>
+<li>Reiniciar la PC y iniciar en <strong>Modo a Prueba de Fallos</strong> (con F8 cuando esta arrancando), loguearse como Administrador y corroborar que la copia en D: está todo bien y una vez comprobado que esta todo bien se puede borrar <code>C:\Documents and Settings</code> sin problemas.</li>
+<li>Reiniciar e iniciar normalmente (cruzando los dedos, obviamente). Y listo!</li>
+</ul>
+<blockquote>
+<p>Corre bajo tu propia responsabilidad, si rompes algo o te explota Windows, anda a cantarle a Gardel a mi no me vengas a romper las bolas. Ok?</p>
+</blockquote>
+        </div><!-- /.entry-content -->
+        
+
+</article>
+</section>
+
+        <section id="extras" class="body">
+        
+        
+        
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="./feeds/all.atom.xml" rel="alternate">atom feed</a></li>
+                            
+                            <li><a href="./feeds/all.rss.xml" rel="alternate">rss feed</a></li>
+                            
+
+                        
+                            <li><a href="http://twitter.com/Leech">twitter</a></li>
+                        
+                            <li><a href="http://github.com/lardissone">github</a></li>
+                        
+                        </ul>
+                </div><!-- /.social -->
+        
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://alexis.notmyidea.org/pelican/">pelican</a>, which takes great advantages of <a href="http://python.org">python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://smashingmagazine.com">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+
+
+
+</body>
+</html>

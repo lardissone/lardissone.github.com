@@ -65,10 +65,10 @@
         
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href=".././farr-find-and-run-robot.html">FARR (Find and Run Robot)</a></h1> 
+                    <h1 class="entry-title"><a href=".././stickers-de-software-gratuito.html">Stickers de software gratuito</a></h1> 
                     <footer class="post-info">
-        <abbr class="published" title="2007-05-04T16:07:00">
-                Fri 04 May 2007
+        <abbr class="published" title="2007-08-11T16:41:00">
+                Sat 11 August 2007
         </abbr>
 
         
@@ -77,49 +77,14 @@
         </address>
         
 <p>In <a href=".././category/General.html">General</a>. </p>
-<p>tags: <a href=".././tag/software.html">software</a><a href=".././tag/review.html">review</a></p>
+<p>tags: <a href=".././tag/varios.html">varios</a><a href=".././tag/productos.html">productos</a><a href=".././tag/software.html">software</a></p>
 
 
-</footer><!-- /.post-info --><p>Muchos de quienes usamos alguna vez Google Desktop notamos que existe una opción muy interesante que es la del popup que aparece cuando apretamos dos veces seguidas la tecla Ctrl (en PC). Es una linea de comandos que nos permite buscar directamente en Google o en nuestra PC.<br />
-Bueno, si bien es básico está bien.<br />
-En este caso quiero presentarles una aplicación que es la delicia de los vagos. Se llama Find and Run Robot (de aquí en mas lo llamaremos FARR por razones obvias, soy vago, me da paja escribir tanto, por algo uso este programa).</p>
-<p>En principio la aplicación cumple el mismo objetivo que la de Google, pero es muchísimo mas configurable.<br />
-Uno puede elegir que configuración de teclas utilizar para activarlo.   Por default, Ctrl + Space vienen definidas, y la tecla de Pause (que tan al inútil es por estos días).</p>
-<p>Al activarlo nos aparece una ventana como esta, con un listado de los programas que ejecutamos mas recientemente:</p>
-<p><img alt="" src="http://drleechmedia.s3.amazonaws.com/shot058.png" /></p>
-<p>Y al comenzar a tipear nos va sugiriendo distintos items del menú Inicio o de directorios que nosotros hayamos definido en las opciones para que busque:</p>
-<p><img alt=" " src="http://drleechmedia.s3.amazonaws.com/shot059.png" /></p>
-<p>La búsqueda es inmediata, pero si esperamos un momento mas, nuevos resultados se van agregando a medida que los va encontrando en los directorios definidos.</p>
-<p>En las opciones podemos configurar el comportamiento de la <strong>interface</strong>, donde podemos elegir que hacer una vez que se eligió un resultado encontrado, que combinaciones de teclas utilizar para invocarlo, si mantener el foco en FARR una vez lanzada la aplicación, etc.:</p>
-<p><a href="http://drleechmedia.s3.amazonaws.com/shot060.png"><img alt="(click para agrandar)" src="http://drleechmedia.s3.amazonaws.com/shot060.thumbnail.png" /></a></p>
-<p>Luego tenemos las opciones visuales, donde podemos cambiar todos los aspectos gráficos y como FARR se comporta gráficamente ante los resultados, podemos cambiar el skin, tamaño de los iconos, forma en que se muestran los resultados, las columnas a mostrar, el path de cada archivo:</p>
-<p><a href="http://drleechmedia.s3.amazonaws.com/shot061.png"><img alt="(click para agrandar)" src="http://drleechmedia.s3.amazonaws.com/shot061.thumbnail.png" /></a></p>
-<p>Algo en que FARR sobresale ante los demás programas que hace cosas similares, es la posibilidad de asignar un puntaje (scoring) que va a determinar la posición del resultado en la lista. Por ejemplo, cuanto mas alto es el puntaje del resultado, en base a distintos filtros establecidos en las opciones, mas arriba va a aparecer en los resultados de la lista. Por default vienen establecidas 5 reglas de puntaje heurístico:</p>
-<ul>
-<li><strong>History File Bonus</strong>: que le da mas puntaje a los archivos que ya buscamos y ejecutamos anteriormente. (Suma 100 puntos)</li>
-<li><strong>Exact Match Bonus</strong>: le suma puntos si la búsqueda corresponde fielmente a un archivo o programa. (Suma 100 puntos)</li>
-<li><strong>Leftmost Match Bonus</strong>: le da mas puntaje si lo que buscamos se encuentra mas a la izquierda del nombre. Por ejemplo si para buscar "expl" comienza encontrando (en mi caso) proexp.exe (Sysinternals Process Explorer, no lo buscó por el nombre porque no lo tengo en mi menú Inicio, pero lo tengo en uno de mis directorios de búsqueda) y luego Internet Explorer, ya que el nombre del primero tiene el patrón de búsqueda mas a la izquierda. (Suma 150 puntos)</li>
-<li><strong>Percentage of Search String Points</strong>: suma puntos por cada letra que encuentra en el nombre. (Suma 25 puntos por letra)</li>
-<li><strong>Whitespace Removal Penalty</strong>: resta puntos por nombres de archivo que sean iguales a lo que buscamos pero sin los espacios. (Resta 50 puntos)</li>
-</ul>
-<p><a href="http://drleechmedia.s3.amazonaws.com/shot062.png"><img alt="(click para agrandar)" src="http://drleechmedia.s3.amazonaws.com/shot062.thumbnail.png" /></a></p>
-<p>Si después de todo este tema de los puntos te cansó o te parece que estamos hablando de un juego RPG, anda dejando de leer lo que sigue.</p>
-<p>Ahora viene el sistema de <strong>puntaje por patrones de búsqued</strong>a. Esto es una de las cosas mas importantes, dado que permite obviar o incluir archivos en las búsquedas. Pensemos por ejemplo, cuantos programas que se instalan tienen su respectivo "Pirufilex 2.5 Uninstall" y esto hará que a la hora de buscar pirufilex nos salgan los dos resultados, el real (el del ejecutable o su acceso directo) y el del desinstalador. Para ello es que existen estos patrones, podemos crear un patrón (en realidad el de este ejemplo ya viene incluido con el programa) que no muestre los resultados que contengan la palabra "uninstall", aclarandole que le reste muchos puntos. Y a su vez podemos incluir archivos que tengan en su nombre <code>leech</code> y darle bastante puntaje porque se lo merece (??), esto hará que busque en los archivos de cualquier extensión y formato pero que contengan la palabra leech, por ej: leech y amigos.jpg.<br />
-Hay que tener cuidado con estos patrones ya que se pueden pisar entre si. Siguiendo el ejemplo de la regla que cree para buscar el texto "leech" que le da 500 puntos a esa búsqueda, pero tenemos otro patrón donde le indicamos que le reste 600 puntos a todos los archivos JPG, en tal caso nuestro archivo no aparece porque pierde 100 puntos pero puede que cumpla con otras reglas heurísticas que le sigan sumando puntos y puede que aparezca en el listado.</p>
-<p><a href="http://drleechmedia.s3.amazonaws.com/shot063.png"><img alt="(click para agrandar)" src="http://drleechmedia.s3.amazonaws.com/shot063.thumbnail.png" /></a></p>
-<p>Cuando definimos los directorios donde debe realizar las búsquedas en primera instancia, también debemos indicarle el puntaje que obtiene la búsqueda en dichos directorios. Por ejemplo, tenemos un directorio con programas útiles a los que accedemos a menudo, a ese directorio le vamos a asignar un puntaje mayor que al menú Inicio, de manera tal que accedemos mas rápido que al resto de los resultados.</p>
-<p><a href="http://drleechmedia.s3.amazonaws.com/shot064.png"><img alt="(click para agrandar)" src="http://drleechmedia.s3.amazonaws.com/shot064.thumbnail.png" /></a></p>
-<p>Y ahora lo mas lindo de todo, la posibilidad de crear alias a cualquier cosa. Esto nos permite definir comandos únicos para realizar acciones especifica como buscar en la Wikipedia, o torrents (como es el ejemplo que acá voy a dar). Para buscar torrents tengo definida este alias:</p>
-<p><a href="http://drleechmedia.s3.amazonaws.com/shot066.png"><img alt="(click para agrandar)" src="http://drleechmedia.s3.amazonaws.com/shot066.thumbnail.png" /></a></p>
-<p>Y una vez que comenzamos a escribir "tor loquequeramos", nos devuelve una lista de las posibles opciones de búsqueda que tenemos para realizar, y al acceder a cualquiera de los resultados nos lleva a nuestro browser con esa búsqueda en dicha página de torrents.</p>
-<p><img alt="tor" src="http://drleechmedia.s3.amazonaws.com/shot067.png" /></p>
-<p>El programa fue creado por <a href="http://www.donationcoder.com/Software/Mouser/index.html">Mouser</a> (Jesse) quien está a cargo del maravilloso sitio <a href="http://www.donationcoder.com/">DonationCoder.com</a> que tantas alegrías y pasatiempos me dió..<br />
-Próximamente sale una versión nueva del FARR, pero no podía dejar de comentar sobre la actual.</p>
-<p><strong>Conclusión</strong>: He notado que cada día estoy mas vago, y todo me cuesta mas. Hasta ir a buscar tal aplicación me cuesta mas que antes. El objetivo diario es descubrir la forma de gastar menos tiempo en acciones innecesarias.</p>
-<p><strong>Puntaje</strong>: 5/5<br />
-<strong>URL</strong>: <a href="http://www.donationcoder.com/Software/Mouser/findrun/index.html">http://www.donationcoder.com/Software/Mouser/findrun/index.html</a><br />
-<strong>Tipo</strong>: Donationware (Si te gusta, doná. Pide una clave de activación, pero la podes obtener registrandote en el sitio, lo mismo para cualquier programa del sitio, de los cuales ya voy a hablar mas a futuro)<br />
-<strong>Tamaño</strong>: 1.6mb</p>
+</footer><!-- /.post-info --><p><a href="http://raro.oreto.inf-cr.uclm.es/apps/stickers/"><img alt="FSSB" src="http://drleechmedia.s3.amazonaws.com/shot295.png" /></a><br />
+Cuando leí la noticia me imaginé que era posible conseguirlos (de alguna forma) ya impresos, pero no, es un libro en PDF con varios stickers que podés imprimir y pegar donde quieras.</p>
+<p><img alt="Stickers" src="http://drleechmedia.s3.amazonaws.com/shot294.png" /></p>
+<p>La idea es reemplazar los clásicos de Windows que vienen en las PCs o bien adornar con nuevos sobre software libre. Está bueno, lástima que imprimirlos y que quede bien, habría que hacerlo en algún papel glossy o algo así.</p>
+<p>Link: <a href="http://raro.oreto.inf-cr.uclm.es/apps/stickers/">Free Software Sticker Book</a></p>
                 </article>
                 
             </aside><!-- /#featured -->
@@ -139,13 +104,13 @@ Próximamente sale una versión nueva del FARR, pero no podía dejar de comentar
             
             <li><article class="hentry">    
                 <header>
-                        <h1><a href=".././filehippo-update-checker.html" rel="bookmark" title="Permalink to FileHippo Update Checker">FileHippo Update Checker</a></h1>
+                        <h1><a href=".././herramientas-de-trabajo.html" rel="bookmark" title="Permalink to Herramientas de trabajo">Herramientas de trabajo</a></h1>
                 </header>
                 
                 <div class="entry-content">
                 <footer class="post-info">
-        <abbr class="published" title="2007-04-03T22:07:00">
-                Tue 03 April 2007
+        <abbr class="published" title="2007-07-20T00:38:00">
+                Fri 20 July 2007
         </abbr>
 
         
@@ -154,14 +119,13 @@ Próximamente sale una versión nueva del FARR, pero no podía dejar de comentar
         </address>
         
 <p>In <a href=".././category/General.html">General</a>. </p>
-<p>tags: <a href=".././tag/software.html">software</a></p>
+<p>tags: <a href=".././tag/personal.html">personal</a><a href=".././tag/trabajo.html">trabajo</a><a href=".././tag/software.html">software</a></p>
 
 
 </footer><!-- /.post-info -->
-                <p>La verdad una utilidad que viene faltando en Windows desde siempre. Update Checker es un simple y pequeño ejecutable que comprueba que soft tenés instalado y comprueba las nuevas versiones disponibles para descargar y te lleva a una página donde podes descargarlas con un simple click.</p>
-<p><a href="http://www.filehippo.com/updatechecker/"><img alt="FileHippo Update Checker" src="http://drleechmedia.s3.amazonaws.com/shot008mil.png" /></a></p>
-<p>La verdad bastante útil ...</p>
-                <a class="readmore" href=".././filehippo-update-checker.html">read more</a>
+                <p>A raíz del post anterior me dieron ganas de comentar que herramientas usamos en la compañía para trabajar y relacionarnos.</p>
+<p>La compañía donde trabajo tiene su base en los Estados Unidos y cuenta con empleados por todo el mundo (Francia, Alemania, España, UK, India y Argentina), por lo que nuestra ...</p>
+                <a class="readmore" href=".././herramientas-de-trabajo.html">read more</a>
                 
                 </div><!-- /.entry-content -->
             </article></li>
@@ -174,13 +138,13 @@ Próximamente sale una versión nueva del FARR, pero no podía dejar de comentar
             
             <li><article class="hentry">    
                 <header>
-                        <h1><a href=".././bookmarklet-para-obtener-los-links-de-emule.html" rel="bookmark" title="Permalink to Bookmarklet para obtener los links de eMule">Bookmarklet para obtener los links de eMule</a></h1>
+                        <h1><a href=".././de-vuelta-a-basecamp.html" rel="bookmark" title="Permalink to De vuelta a Basecamp">De vuelta a Basecamp</a></h1>
                 </header>
                 
                 <div class="entry-content">
                 <footer class="post-info">
-        <abbr class="published" title="2007-03-20T20:03:00">
-                Tue 20 March 2007
+        <abbr class="published" title="2007-07-18T15:13:00">
+                Wed 18 July 2007
         </abbr>
 
         
@@ -188,14 +152,14 @@ Próximamente sale una versión nueva del FARR, pero no podía dejar de comentar
                 By <a class="url fn" href="#">Leandro Ardissone</a>
         </address>
         
-<p>In <a href=".././category/Desarrollo.html">Desarrollo</a>. </p>
-<p>tags: <a href=".././tag/software.html">software</a><a href=".././tag/bookmarklets.html">bookmarklets</a></p>
+<p>In <a href=".././category/General.html">General</a>. </p>
+<p>tags: <a href=".././tag/personal.html">personal</a><a href=".././tag/desarrollo.html">desarrollo</a><a href=".././tag/software.html">software</a></p>
 
 
 </footer><!-- /.post-info -->
-                <p>Estaba un tanto cansado de tener que andar copiando uno por uno los links de <a href="http://www.emule-project.net/">eMule</a> (ed2k://) que hay en foros para después pegarlos en el programa.<br />
-Y si bien había hecho un <a href="/software.html">programita</a> para obtener los links desde el código, no me resultaba para nada cómodo, así que decidí ...</p>
-                <a class="readmore" href=".././bookmarklet-para-obtener-los-links-de-emule.html">read more</a>
+                <p>Durante mas de un año estuvimos usando <a href="http://www.activecollab.com/">ActiveCollab</a> en la empresa para la organización y administración de proyectos y personal, y a su vez comunicación con los clientes. Decidimos movernos a ActiveCollab desde <a href="http://www.basecamphq.com/">Basecamp</a> porque al ser Open Source podíamos hacer cualquier cambio que necesitemos.<br />
+En un principio fue una ...</p>
+                <a class="readmore" href=".././de-vuelta-a-basecamp.html">read more</a>
                 
                 </div><!-- /.entry-content -->
             </article></li>
@@ -208,13 +172,13 @@ Y si bien había hecho un <a href="/software.html">programita</a> para obtener l
             
             <li><article class="hentry">    
                 <header>
-                        <h1><a href=".././fear-and-loathing-in-gonzovision.html" rel="bookmark" title="Permalink to Fear and Loathing in Gonzovision">Fear and Loathing in Gonzovision</a></h1>
+                        <h1><a href=".././toadsoft-trabajando-comodamente-con-bases-de-datos.html" rel="bookmark" title="Permalink to TOADSoft, trabajando comodamente con bases de datos">TOADSoft, trabajando comodamente con bases de datos</a></h1>
                 </header>
                 
                 <div class="entry-content">
                 <footer class="post-info">
-        <abbr class="published" title="2007-02-26T15:48:00">
-                Mon 26 February 2007
+        <abbr class="published" title="2007-06-25T18:44:00">
+                Mon 25 June 2007
         </abbr>
 
         
@@ -223,16 +187,12 @@ Y si bien había hecho un <a href="/software.html">programita</a> para obtener l
         </address>
         
 <p>In <a href=".././category/General.html">General</a>. </p>
-<p>tags: <a href=".././tag/firefox.html">firefox</a><a href=".././tag/software.html">software</a></p>
+<p>tags: <a href=".././tag/software.html">software</a><a href=".././tag/desarrollo.html">desarrollo</a></p>
 
 
 </footer><!-- /.post-info -->
-                <p><a href="http://www.youtube.com/watch?feature=player_embedded&amp;list=PLE7E7918381223FEC&amp;v=MSyJBANLwZY">Este es un documental</a> creado por la BBC en 1978, donde siguió a Hunter S. Thompson en una serie de entrevistas y viajes.<br />
-Muy groso.</p>
-<iframe width="480" height="360" src="http://www.youtube.com/embed/MSyJBANLwZY?rel=0" frameborder="0" allowfullscreen></iframe>
-
-<p>RIP HST</p>
-                <a class="readmore" href=".././fear-and-loathing-in-gonzovision.html">read more</a>
+                <p>Encontré esta aplicación para administrar bases de datos. Y no es un GUI mas de bases de datos como hay tantos y ninguno funciona del todo bien (excepto phpMyAdmin, pero ya es basado en web), sino que es un administrador bien completo que además permite el modelado de bases de ...</p>
+                <a class="readmore" href=".././toadsoft-trabajando-comodamente-con-bases-de-datos.html">read more</a>
                 
                 </div><!-- /.entry-content -->
             </article></li>
@@ -245,13 +205,13 @@ Muy groso.</p>
             
             <li><article class="hentry">    
                 <header>
-                        <h1><a href=".././extension-list-dumper.html" rel="bookmark" title="Permalink to Extension List Dumper">Extension List Dumper</a></h1>
+                        <h1><a href=".././farr-find-and-run-robot.html" rel="bookmark" title="Permalink to FARR (Find and Run Robot)">FARR (Find and Run Robot)</a></h1>
                 </header>
                 
                 <div class="entry-content">
                 <footer class="post-info">
-        <abbr class="published" title="2007-02-26T15:32:00">
-                Mon 26 February 2007
+        <abbr class="published" title="2007-05-04T16:07:00">
+                Fri 04 May 2007
         </abbr>
 
         
@@ -260,13 +220,13 @@ Muy groso.</p>
         </address>
         
 <p>In <a href=".././category/General.html">General</a>. </p>
-<p>tags: <a href=".././tag/firefox.html">firefox</a><a href=".././tag/software.html">software</a></p>
+<p>tags: <a href=".././tag/software.html">software</a><a href=".././tag/review.html">review</a></p>
 
 
 </footer><!-- /.post-info -->
-                <p>Todo usuario de Firefox que disfrute de su browser y que comparte sus descubrimientos con sus amigos no puede dejar pasar esta extensión: Extension List Dumper.</p>
-<p>Lo que hace, es exportar una lista de todas las extensiones instaladas en Firefox. Si! Cuantas veces quisiste mostrarle a algun amigo todas las ...</p>
-                <a class="readmore" href=".././extension-list-dumper.html">read more</a>
+                <p>Muchos de quienes usamos alguna vez Google Desktop notamos que existe una opción muy interesante que es la del popup que aparece cuando apretamos dos veces seguidas la tecla Ctrl (en PC). Es una linea de comandos que nos permite buscar directamente en Google o en nuestra PC.<br />
+Bueno, si ...</p>
+                <a class="readmore" href=".././farr-find-and-run-robot.html">read more</a>
                 
                 </div><!-- /.entry-content -->
             </article></li>

@@ -1,5 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>El Blog de Leech</title><link href="http://www.dr-leech.com.ar" rel="alternate"></link><link href="http://www.dr-leech.com.ar/feeds/Desarrollo.atom.xml" rel="self"></link><id>http://www.dr-leech.com.ar</id><updated>2007-04-02T18:45:00Z</updated><entry><title>Clases y librerías esenciales de PHP</title><link href="http://www.dr-leech.com.ar/clases-y-librerias-esenciales-de-php.html" rel="alternate"></link><updated>2007-04-02T18:45:00Z</updated><author><name>Leandro Ardissone</name></author><id>tag:www.dr-leech.com.ar,2007-04-02:/clases-y-librerias-esenciales-de-php.html/</id><summary type="html">&lt;p&gt;Muchas veces necesitamos hacer algún script rápido o algo custom que no se justifica utilizar un framework como CakePHP (aunque se pueden instalar como helpers o componentes del mismo), es aquí cuando nos conviene utilizar librerías o clases para simplificar (y/o asegurar) nuestro desarrollo.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>El Blog de Leech</title><link href="http://www.dr-leech.com.ar" rel="alternate"></link><link href="http://www.dr-leech.com.ar/feeds/Desarrollo.atom.xml" rel="self"></link><id>http://www.dr-leech.com.ar</id><updated>2007-08-16T16:34:00Z</updated><entry><title>Akelos, Ruby on Rails en PHP</title><link href="http://www.dr-leech.com.ar/akelos-ruby-on-rails-en-php.html" rel="alternate"></link><updated>2007-08-16T16:34:00Z</updated><author><name>Leandro Ardissone</name></author><id>tag:www.dr-leech.com.ar,2007-08-16:/akelos-ruby-on-rails-en-php.html/</id><summary type="html">&lt;p&gt;&lt;a href="http://www.akelos.org/"&gt;&lt;img alt="Akelos" src="http://drleechmedia.s3.amazonaws.com/shot338.png" /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;a href="http://www.akelos.org/"&gt;Akelos&lt;/a&gt;, es un framework para PHP basado íntegramente en &lt;a href="http://www.rubyonrails.org/"&gt;Ruby on Rails&lt;/a&gt;. Estoy bastante metido con &lt;a href="http://www.cakephp.org/"&gt;CakePHP&lt;/a&gt; y &lt;a href="http://www.djangoproject.com/"&gt;Django&lt;/a&gt;, pero la verdad que Akelos promete mucho y me parece muy bueno un framework con la simplicidad de Ruby on Rails y la potencia, y estabilidad, de PHP.&lt;br /&gt;
+Miren el &lt;a href="http://www.akelos.org/screencasts"&gt;screencast&lt;/a&gt; que está muy bien explicado como hacer un blog en 20 minutos.&lt;/p&gt;
+&lt;p&gt;Voy a tratar de seguir de cerca el proyecto para ver como evoluciona, ya que todavía es una versión muy nueva.&lt;/p&gt;
+&lt;p&gt;Por lo pronto me gustaría que en vez de prototype y scriptaculous use jQuery para la parte de Web2.0, pero es fácil de integrar.&lt;/p&gt;</summary><category term="php"></category></entry><entry><title>Resumen de los nuevos elementos en HTML5</title><link href="http://www.dr-leech.com.ar/resumen-de-los-nuevos-elementos-en-html5.html" rel="alternate"></link><updated>2007-08-11T17:01:00Z</updated><author><name>Leandro Ardissone</name></author><id>tag:www.dr-leech.com.ar,2007-08-11:/resumen-de-los-nuevos-elementos-en-html5.html/</id><summary type="html">&lt;p&gt;Cómo la mayoría estará al tanto, se viene el HTML5. Y bueno, a raíz de esto surgen muchas dudas e ideas locas, pero en este caso solo vamos a ver un resumen sobre los nuevos elementos de HTML5 que hicieron los chicos de &lt;a href="http://www.kbglob.com/desarrollo-web/html5-nos-trae-nuevos-elementos/"&gt;Kbglob&lt;/a&gt; quienes se basaron en la &lt;a href="http://www.ibm.com/developerworks/library/x-html5/?ca=dgr-lnxw01NewHTML"&gt;noticia original publicada en IBM&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Estructura:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;section:&lt;/em&gt; Una parte o capítulo de un libro, sección de un capítulo, o esencialmente cualquier cosa que tenga su propio encabezado en HTML 4.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;header:&lt;/em&gt; El encabezado de la página; no es lo mismo que el tag HEAD.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;footer:&lt;/em&gt; El pie de página, donde van las letras chicas, copyright, emails, etc.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;nav:&lt;/em&gt; Una colección de links a otras páginas.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;article:&lt;/em&gt; Una entrada independiente en un blog, revista, compendio o lo que sea.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Bloques semánticos:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;aside:&lt;/em&gt; Representa una nota, un consejo, un sidebar o lo que sea que esté afuera del bloque narrativo.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;figure:&lt;/em&gt; Representa una imagen a nivel de bloque, junto con su titulo.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;dialog:&lt;/em&gt; Un elemento diálogo representa una conversación entre diferentes personas. El elemento ‘dt’ señala al que habla y ‘dd’ señala el discurso.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Inlines semánticos:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;m (mark):&lt;/em&gt; Indica que el texto está “marcado” de alguna manera pero no necesariamente enfatizado. Por ejemplo, una página resaltada en un libro, o en google cache cuando resalta los términos buscados.
+time: Bastante lógico, representa una fecha.
+meter: Representa un valor numérico en un rango especificado.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;progress:&lt;/em&gt; Representa el estado de un proceso en ejecución, como las conocidas barras de progreso en las ventanas de programas. Suena MUY práctico!.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Multimedia embebida:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;audio y video:&lt;/em&gt; Como sus nombres dicen, son para embeber audio y video. La sintaxis es prácticamente la del viejo y querido tag IMG.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Interactivos:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;details:&lt;/em&gt; Representa información adicional que podría no mostrarse por defecto.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;datagrid:&lt;/em&gt; Sirve como control de “grillas”. Para árboles, listados y tablas que pueden ser actualizados con scripts.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;menu y command:&lt;/em&gt; Menu existe desde la versión 2 de HTML. Fue deprecado en la versión 4 pero retorna con nuevo significado, conteniendo comandos que se van a ejecutar al ser activados.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Link: &lt;a href="http://www.kbglob.com/desarrollo-web/html5-nos-trae-nuevos-elementos/"&gt;Kbglob - HTML5 nos trae nuevos elementos&lt;/a&gt;&lt;br /&gt;
+Link: &lt;a href="http://www.ibm.com/developerworks/library/x-html5/?ca=dgr-lnxw01NewHTML"&gt;New elements in HTML5 @ IBM&lt;/a&gt;&lt;br /&gt;
+Via: &lt;a href="http://www.fernando.com.ar/2007/varios-3/"&gt;Fernando&lt;/a&gt;&lt;br /&gt;
+&lt;/p&gt;</summary><category term="html5"></category></entry><entry><title>3 razones para porqué usar jQuery</title><link href="http://www.dr-leech.com.ar/3-razones-para-porque-usar-jquery.html" rel="alternate"></link><updated>2007-06-01T15:14:00Z</updated><author><name>Leandro Ardissone</name></author><id>tag:www.dr-leech.com.ar,2007-06-01:/3-razones-para-porque-usar-jquery.html/</id><summary type="html">&lt;p&gt;Desde el principio que me volví fanático de la maravillosa librería de javascript &lt;a href="http://jquery.com/"&gt;jQuery&lt;/a&gt;. Lo cual me volvió un tanto vago a la hora de programar javascript sin usar la ayuda de esta librería.&lt;/p&gt;
+&lt;p&gt;En &lt;a href="http://www.javascriptkata.com/2007/05/29/3-reasons-why-i-use-jquery/"&gt;este sitio&lt;/a&gt; explican cuales son las principales tres razones de porque utilizar &lt;a href="http://jquery.com/"&gt;jQuery&lt;/a&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Selectores&lt;/strong&gt;: jQuery soporta muchos selectores. Y cuando digo un muchos, realmente quiero decir muchos. Primero, están los selectores CSS. Solo debés aplicar lo que sabes de &lt;a href="http://docs.jquery.com/Selectors#CSS_Selectors"&gt;CSS&lt;/a&gt; y podes usar muchos selectores complejos. 
+Segundo, están los selectores &lt;a href="http://docs.jquery.com/Selectors#XPath_Selectors"&gt;XPath&lt;/a&gt;. Cuando era joven, escribí mucho XSL. Y cuando digo mucho, estoy diciendo mucho. XSL hace un uso intensivo de XPath. Porque XHTML es básicamente XML, por esto podemos usar XPath para navegar fácilmente a través del DOM. El problema era que antes que jQuery, nada podía hacerlo. Ahora podemos!
+En comparación, prototype solo tiene el comando &lt;code&gt;$('ID')&lt;/code&gt; para seleccionar un elemento. Ouch!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Los Atributos&lt;/strong&gt;: Es fácil para &lt;a href="http://docs.jquery.com/DOM/Attributes"&gt;agregar o quitar atributos&lt;/a&gt; a los elementos. Uso esto cuando quiero crear nuevos elementos o cuando necesito agregarle/quitarle una clase CSS a un elemento. Lo más interesante es que podes encadenar los comandos y va a funcionar.
+&lt;code&gt;$("div").attr("title", "Esto es un div").addClass("newClass");&lt;/code&gt;&lt;br /&gt;
+Podes encadenar la cantidad que quieras.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ajax y JSON&lt;/strong&gt;: Otra vez, &lt;a href="http://docs.jquery.com/Ajax"&gt;Ajax&lt;/a&gt; es ahora tan fácil como 1,2,3. Escribí un &lt;a href="http://www.javascriptkata.com/2007/05/08/how-to-use-json/"&gt;artículo sobre JSON&lt;/a&gt; y pensé, no existe una alternativa real a JSON. jQuery te ayuda con esto.&lt;br /&gt;
+Con &lt;a href="http://www.prototypejs.org/learn/json"&gt;prototype&lt;/a&gt; esto es un poco mas complejo.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span class="nv"&gt;$&lt;/span&gt;&lt;span class="err"&gt;.&lt;/span&gt;&lt;span class="nv"&gt;getJSON&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;http://www.thesite.com/thejson&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="n"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;json&lt;/span&gt;&lt;span class="p"&gt;){&lt;/span&gt;
+    &lt;span class="n"&gt;alert&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;I received the json and put it in the json var : &amp;quot;&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;json&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;toString&lt;/span&gt;&lt;span class="p"&gt;());&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Link: &lt;a href="http://www.javascriptkata.com/2007/05/29/3-reasons-why-i-use-jquery/"&gt;3 reasons why I use jQuery&lt;/a&gt;&lt;br /&gt;
+Via: &lt;a href="http://www.anieto2k.com/2007/05/31/3-motivos-por-los-que-decidirte-por-jquery/"&gt;aNieto2K&lt;/a&gt;&lt;/p&gt;</summary><category term="javascript"></category><category term="jquery"></category></entry><entry><title>La consola de CakePHP</title><link href="http://www.dr-leech.com.ar/la-consola-de-cakephp.html" rel="alternate"></link><updated>2007-05-28T16:06:00Z</updated><author><name>Leandro Ardissone</name></author><id>tag:www.dr-leech.com.ar,2007-05-28:/la-consola-de-cakephp.html/</id><summary type="html">&lt;p&gt;Que grosa que esta la consola de CakePHP.&lt;br /&gt;
+Que es la consola? Bueno, una forma de poder ver el funcionamiento del sitio desde atrás, para acceder a los datos directamente como los accederá CakePHP en nuestro sitio. Usando las mismas funciones que usaremos en nuestros modelos.&lt;/p&gt;
+&lt;p&gt;Miren el &lt;a href="http://www.littlehart.net/atthekeyboard/2007/05/25/screencast-interactive-console-for-cakephp/"&gt;screencast de ejemplo acá&lt;/a&gt;. Se zarpa.
+&lt;img alt="CakePHP" src="http://drleechmedia.s3.amazonaws.com/shot149.png" /&gt;&lt;/p&gt;
+&lt;p&gt;Link: &lt;a href="http://www.littlehart.net/atthekeyboard/2007/05/25/screencast-interactive-console-for-cakephp/"&gt;@TheKeyboard&lt;/a&gt;&lt;br /&gt;
+Via: &lt;a href="http://cakebaker.42dh.com/2007/05/26/api-shell-script/"&gt;cakebaker&lt;/a&gt;&lt;/p&gt;</summary><category term="php"></category><category term="cakephp"></category></entry><entry><title>Clases y librerías esenciales de PHP</title><link href="http://www.dr-leech.com.ar/clases-y-librerias-esenciales-de-php.html" rel="alternate"></link><updated>2007-04-02T18:45:00Z</updated><author><name>Leandro Ardissone</name></author><id>tag:www.dr-leech.com.ar,2007-04-02:/clases-y-librerias-esenciales-de-php.html/</id><summary type="html">&lt;p&gt;Muchas veces necesitamos hacer algún script rápido o algo custom que no se justifica utilizar un framework como CakePHP (aunque se pueden instalar como helpers o componentes del mismo), es aquí cuando nos conviene utilizar librerías o clases para simplificar (y/o asegurar) nuestro desarrollo.&lt;/p&gt;
 &lt;p&gt;Estas son algunas de las clases que uso en estos casos. Sin un orden en particular, solo las que encontré en mis bookmarks.&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://www.swiftmailer.org/"&gt;SwiftMailer&lt;/a&gt;: Cuando notamos que &lt;a href="http://lwest.free.fr/doc/php/lib/index.php3?page=mail&amp;amp;lang=en"&gt;LibMail&lt;/a&gt; queda chico y phpMailer viejo.&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://www.woyano.com/jv/ezsql"&gt;ezSQL&lt;/a&gt;: Una clase para trabajar con bases de datos, sinceramente prefiero la &lt;a href="http://pear.php.net/package/DB"&gt;DB&lt;/a&gt; de &lt;a href="http://pear.php.net/"&gt;PEAR&lt;/a&gt;, pero esta tiene sus cositas, otra es la &lt;a href="http://adodb.sourceforge.net/"&gt;ADOdb&lt;/a&gt; (o &lt;a href="http://adodblite.sourceforge.net/index.php"&gt;ADOdb Lite&lt;/a&gt;).&lt;/p&gt;
