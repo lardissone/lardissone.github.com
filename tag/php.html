@@ -65,8 +65,64 @@
         
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href=".././akelos-ruby-on-rails-en-php.html">Akelos, Ruby on Rails en PHP</a></h1> 
+                    <h1 class="entry-title"><a href=".././mapeo-relacional-de-objetos-orm-en-php.html">Mapeo relacional de objetos (ORM) en PHP</a></h1> 
                     <footer class="post-info">
+        <abbr class="published" title="2007-10-08T16:51:00">
+                Mon 08 October 2007
+        </abbr>
+
+        
+        <address class="vcard author">
+                By <a class="url fn" href="#">Leandro Ardissone</a>
+        </address>
+        
+<p>In <a href=".././category/Desarrollo.html">Desarrollo</a>. </p>
+<p>tags: <a href=".././tag/php.html">php</a></p>
+
+
+</footer><!-- /.post-info --><p>En la programación orientada a objetos siempre se debe lidiar con que a la hora de comunicarse con la base de datos se debe recurrir a convertir nuestros objetos a datos planos (cadenas, o enteros). Para eso existen las librerías de Mapeo Relacional de Objetos (mas conocida por sus siglas en inglés como ORM) que se encargan de, como su nombre lo indican, mapear las bases de datos de manera tal que trabajemos con ellas como si fueran mas objetos de nuestro desarrollo.<br />
+Y es acá que voy a nombrar algunas de estas librerías de PHP que se encargan de generar el código necesario para comunicarse con nuestras bases de datos.<br />
+Por supuesto hay frameworks completos que traen por default este mapeo como CakePHP, CodeIgniter, Symfony, etc, los cuales no incluyo en esta lista.</p>
+<p><a href="http://www.phpobjectgenerator.com/"><img alt="PHP Object Generator" src="http://drleechmedia.s3.amazonaws.com/shot543.png" /></a><br />
+<a href="http://www.phpobjectgenerator.com/">PHP Object Generator</a>: es uno de los mas conocidos, y no en vano, ya que el generador online es excelente, uno ingresa el nombre del objeto y las columnas de la tabla a la que se desea mapear el objeto. Tiene soporte para PHP4 y PHP5.</p>
+<p><a href="http://www.phpdoctrine.org/"><img alt="Doctrine" src="http://drleechmedia.s3.amazonaws.com/shot544.png" /></a><br />
+<a href="http://www.phpdoctrine.org/">Doctrine</a>: esta realizada para correr únicamente en PHP5. Utiliza un sistema de queries personalizados que devuelven el objeto con la información de la base de datos:<br />
+<img alt="Doctrine" src="http://drleechmedia.s3.amazonaws.com/shot545.png" /></p>
+<p><a href="http://junctionphp.com/"><img alt="Junction PHP" src="http://drleechmedia.s3.amazonaws.com/shot546.png" /></a><br />
+<a href="http://junctionphp.com/">Junction PHP</a>: es una librería relativamente nueva (que todavía no está muy bien documentada). Se ve interesante, no alcancé a probarla aún.</p>
+<p><a href="http://phplens.com/lens/adodb/docs-active-record.htm"><img alt="ADOdb Active Record" src="http://drleechmedia.s3.amazonaws.com/shot547.png" /></a><br />
+<a href="http://phplens.com/lens/adodb/docs-active-record.htm">ADOdb Active Record</a>: <a href="http://adodb.sourceforge.net/">ADOdb</a> es una librería de abstracción muy reconocida desde hace años, y no podía faltar que alguien realizara un plugin (o algo así) que permina el manejo de ORM usando la misma librería para conexión. ADOdb Active Record, utiliza el método de Active Record y no difiere mucho de las otras alternativas.</p>
+<p><a href="http://www.ezpdo.net/blog/"><img alt="EZPDO" src="http://drleechmedia.s3.amazonaws.com/shot550.png" /></a><br />
+<a href="http://www.ezpdo.net/blog/">EZPDO</a>: es una de las mas completas y activamente desarrolladas librerias. Algo curioso de esta librería es que utiliza los comentarios para indicar relaciones y tipos de datos de cada objeto. Vale la pena tenerla en cuenta.</p>
+<p><a href="http://pear.php.net/package/DB_DataObject"><img alt="DB_DataObject" src="http://drleechmedia.s3.amazonaws.com/shot549.png" /></a>
+<a href="http://pear.php.net/package/DB_DataObject">DB_DataObject</a>: esta librería es un proyecto dependiente del framework PEAR, posee funciones genéricas para todo tipo de consulta desde los objetos sin tener que manipular demasiado los queries SQL. Es bastante avanzada.</p>
+<p><a href="http://propel.phpdb.org/trac/"><img alt="Propel" src="http://drleechmedia.s3.amazonaws.com/shot551.png" /></a><br />
+<a href="http://propel.phpdb.org/trac/">Propel</a>: es una de las mas antiguas y mejor documentada. Está muy completa y hasta incluye validación.</p>
+<p>Podés encontrar mas en <a href="http://del.icio.us/tag/php+orm">del.icio.us</a>.</p>
+                </article>
+                
+            </aside><!-- /#featured -->
+            
+                <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                        <ol id="posts-list" class="hfeed">
+            
+        
+        
+        
+        
+
+        
+         
+            
+            <li><article class="hentry">    
+                <header>
+                        <h1><a href=".././akelos-ruby-on-rails-en-php.html" rel="bookmark" title="Permalink to Akelos, Ruby on Rails en PHP">Akelos, Ruby on Rails en PHP</a></h1>
+                </header>
+                
+                <div class="entry-content">
+                <footer class="post-info">
         <abbr class="published" title="2007-08-16T16:34:00">
                 Thu 16 August 2007
         </abbr>
@@ -80,21 +136,14 @@
 <p>tags: <a href=".././tag/php.html">php</a></p>
 
 
-</footer><!-- /.post-info --><p><a href="http://www.akelos.org/"><img alt="Akelos" src="http://drleechmedia.s3.amazonaws.com/shot338.png" /></a><br />
+</footer><!-- /.post-info -->
+                <p><a href="http://www.akelos.org/"><img alt="Akelos" src="http://drleechmedia.s3.amazonaws.com/shot338.png" /></a><br />
 <a href="http://www.akelos.org/">Akelos</a>, es un framework para PHP basado íntegramente en <a href="http://www.rubyonrails.org/">Ruby on Rails</a>. Estoy bastante metido con <a href="http://www.cakephp.org/">CakePHP</a> y <a href="http://www.djangoproject.com/">Django</a>, pero la verdad que Akelos promete mucho y me parece muy bueno un framework con la simplicidad de Ruby on Rails y la potencia, y estabilidad, de PHP.<br />
-Miren el <a href="http://www.akelos.org/screencasts">screencast</a> que está muy bien explicado como hacer un blog en 20 minutos.</p>
-<p>Voy a tratar de seguir de cerca el proyecto para ver como evoluciona, ya que todavía es una versión muy nueva.</p>
-<p>Por lo pronto me gustaría que en vez de prototype y scriptaculous use jQuery para la parte de Web2.0, pero es fácil de integrar.</p>
-                </article>
+Miren el <a href="http://www.akelos.org/screencasts">screencast ...</a></p>
+                <a class="readmore" href=".././akelos-ruby-on-rails-en-php.html">read more</a>
                 
-            </aside><!-- /#featured -->
-            
-                <section id="content" class="body">
-                    <h1>Other articles</h1>
-                    <hr />
-                        <ol id="posts-list" class="hfeed">
-            
-        
+                </div><!-- /.entry-content -->
+            </article></li>
         
         
         
@@ -197,40 +246,6 @@ Que es la consola? Bueno, una forma de poder ver el funcionamiento del sitio des
                 <p>Muchas veces necesitamos hacer algún script rápido o algo custom que no se justifica utilizar un framework como CakePHP (aunque se pueden instalar como helpers o componentes del mismo), es aquí cuando nos conviene utilizar librerías o clases para simplificar (y/o asegurar) nuestro desarrollo.</p>
 <p>Estas son algunas de las ...</p>
                 <a class="readmore" href=".././clases-y-librerias-esenciales-de-php.html">read more</a>
-                
-                </div><!-- /.entry-content -->
-            </article></li>
-        
-        
-        
-
-        
-         
-            
-            <li><article class="hentry">    
-                <header>
-                        <h1><a href=".././phpinfo-vs-cakeinfo.html" rel="bookmark" title="Permalink to phpinfo() vs cakeinfo()">phpinfo() vs cakeinfo()</a></h1>
-                </header>
-                
-                <div class="entry-content">
-                <footer class="post-info">
-        <abbr class="published" title="2007-02-19T16:13:00">
-                Mon 19 February 2007
-        </abbr>
-
-        
-        <address class="vcard author">
-                By <a class="url fn" href="#">Leandro Ardissone</a>
-        </address>
-        
-<p>In <a href=".././category/Desarrollo.html">Desarrollo</a>. </p>
-<p>tags: <a href=".././tag/cakephp.html">cakephp</a><a href=".././tag/php.html">php</a></p>
-
-
-</footer><!-- /.post-info -->
-                <p>Todos conocemos la función phpinfo() de PHP que nos ofrece información sobre la instalación de PHP en el sistema.<br />
-Bueno, me topé con esta nueva función para CakePHP, cakeinfo(). Que, cómo phpinfo(), nos brinda detallada información, en este caso del proyecto actual en CakePHP. Información sobre los modelos y constructores ...</p>
-                <a class="readmore" href=".././phpinfo-vs-cakeinfo.html">read more</a>
                 
                 </div><!-- /.entry-content -->
             </article></li>

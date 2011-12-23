@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Mapeo relacional de objetos (ORM) en PHP</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="./theme/css/main.css" type="text/css" />
+        <link href="./feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="El Blog de Leech ATOM Feed" />
+        
+        <link href="./feeds/all.rss.xml" type="application/atom+xml" rel="alternate" title="El Blog de Leech RSS Feed" />
+        
+
+        
+
+        <!--[if IE]>
+                <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+        <!--[if lte IE 7]>
+                <link rel="stylesheet" type="text/css" media="all" href="./css/ie.css"/>
+                <script src="./js/IE8.js" type="text/javascript"></script><![endif]-->
+
+        <!--[if lt IE 7]>
+                <link rel="stylesheet" type="text/css" media="all" href="./css/ie6.css"/><![endif]-->
+
+</head>
+
+<body id="index" class="home">
+
+        <header id="banner" class="body">
+                <h1><a href=".">El Blog de Leech </a></h1>
+                <nav><ul>
+                
+                
+                
+                
+                
+                    <li ><a href="./category/Tecnología.html">Tecnología</a></li>
+                
+                    <li ><a href="./category/Software.html">Software</a></li>
+                
+                    <li ><a href="./category/Personal.html">Personal</a></li>
+                
+                    <li ><a href="./category/Películas.html">Películas</a></li>
+                
+                    <li ><a href="./category/Música.html">Música</a></li>
+                
+                    <li ><a href="./category/Literatura.html">Literatura</a></li>
+                
+                    <li ><a href="./category/Juegos.html">Juegos</a></li>
+                
+                    <li ><a href="./category/Humor.html">Humor</a></li>
+                
+                    <li ><a href="./category/General.html">General</a></li>
+                
+                    <li ><a href="./category/Gadgets.html">Gadgets</a></li>
+                
+                    <li class="active"><a href="./category/Desarrollo.html">Desarrollo</a></li>
+                
+                </ul></nav>
+        </header><!-- /#banner -->
+                
+<section id="content" class="body">    
+<article>
+        <header> <h1 class="entry-title"><a href="mapeo-relacional-de-objetos-orm-en-php.html"
+        rel="bookmark" title="Permalink to Mapeo relacional de objetos (ORM) en PHP">Mapeo relacional de objetos (ORM) en PHP</a></h1>  </header>
+        <div class="entry-content">
+        <footer class="post-info">
+        <abbr class="published" title="2007-10-08T16:51:00">
+                Mon 08 October 2007
+        </abbr>
+
+        
+        <address class="vcard author">
+                By <a class="url fn" href="#">Leandro Ardissone</a>
+        </address>
+        
+<p>In <a href="./category/Desarrollo.html">Desarrollo</a>. </p>
+<p>tags: <a href="./tag/php.html">php</a></p>
+
+
+</footer><!-- /.post-info -->
+        <p>En la programación orientada a objetos siempre se debe lidiar con que a la hora de comunicarse con la base de datos se debe recurrir a convertir nuestros objetos a datos planos (cadenas, o enteros). Para eso existen las librerías de Mapeo Relacional de Objetos (mas conocida por sus siglas en inglés como ORM) que se encargan de, como su nombre lo indican, mapear las bases de datos de manera tal que trabajemos con ellas como si fueran mas objetos de nuestro desarrollo.<br />
+Y es acá que voy a nombrar algunas de estas librerías de PHP que se encargan de generar el código necesario para comunicarse con nuestras bases de datos.<br />
+Por supuesto hay frameworks completos que traen por default este mapeo como CakePHP, CodeIgniter, Symfony, etc, los cuales no incluyo en esta lista.</p>
+<p><a href="http://www.phpobjectgenerator.com/"><img alt="PHP Object Generator" src="http://drleechmedia.s3.amazonaws.com/shot543.png" /></a><br />
+<a href="http://www.phpobjectgenerator.com/">PHP Object Generator</a>: es uno de los mas conocidos, y no en vano, ya que el generador online es excelente, uno ingresa el nombre del objeto y las columnas de la tabla a la que se desea mapear el objeto. Tiene soporte para PHP4 y PHP5.</p>
+<p><a href="http://www.phpdoctrine.org/"><img alt="Doctrine" src="http://drleechmedia.s3.amazonaws.com/shot544.png" /></a><br />
+<a href="http://www.phpdoctrine.org/">Doctrine</a>: esta realizada para correr únicamente en PHP5. Utiliza un sistema de queries personalizados que devuelven el objeto con la información de la base de datos:<br />
+<img alt="Doctrine" src="http://drleechmedia.s3.amazonaws.com/shot545.png" /></p>
+<p><a href="http://junctionphp.com/"><img alt="Junction PHP" src="http://drleechmedia.s3.amazonaws.com/shot546.png" /></a><br />
+<a href="http://junctionphp.com/">Junction PHP</a>: es una librería relativamente nueva (que todavía no está muy bien documentada). Se ve interesante, no alcancé a probarla aún.</p>
+<p><a href="http://phplens.com/lens/adodb/docs-active-record.htm"><img alt="ADOdb Active Record" src="http://drleechmedia.s3.amazonaws.com/shot547.png" /></a><br />
+<a href="http://phplens.com/lens/adodb/docs-active-record.htm">ADOdb Active Record</a>: <a href="http://adodb.sourceforge.net/">ADOdb</a> es una librería de abstracción muy reconocida desde hace años, y no podía faltar que alguien realizara un plugin (o algo así) que permina el manejo de ORM usando la misma librería para conexión. ADOdb Active Record, utiliza el método de Active Record y no difiere mucho de las otras alternativas.</p>
+<p><a href="http://www.ezpdo.net/blog/"><img alt="EZPDO" src="http://drleechmedia.s3.amazonaws.com/shot550.png" /></a><br />
+<a href="http://www.ezpdo.net/blog/">EZPDO</a>: es una de las mas completas y activamente desarrolladas librerias. Algo curioso de esta librería es que utiliza los comentarios para indicar relaciones y tipos de datos de cada objeto. Vale la pena tenerla en cuenta.</p>
+<p><a href="http://pear.php.net/package/DB_DataObject"><img alt="DB_DataObject" src="http://drleechmedia.s3.amazonaws.com/shot549.png" /></a>
+<a href="http://pear.php.net/package/DB_DataObject">DB_DataObject</a>: esta librería es un proyecto dependiente del framework PEAR, posee funciones genéricas para todo tipo de consulta desde los objetos sin tener que manipular demasiado los queries SQL. Es bastante avanzada.</p>
+<p><a href="http://propel.phpdb.org/trac/"><img alt="Propel" src="http://drleechmedia.s3.amazonaws.com/shot551.png" /></a><br />
+<a href="http://propel.phpdb.org/trac/">Propel</a>: es una de las mas antiguas y mejor documentada. Está muy completa y hasta incluye validación.</p>
+<p>Podés encontrar mas en <a href="http://del.icio.us/tag/php+orm">del.icio.us</a>.</p>
+        </div><!-- /.entry-content -->
+        
+
+</article>
+</section>
+
+        <section id="extras" class="body">
+        
+        
+        
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="./feeds/all.atom.xml" rel="alternate">atom feed</a></li>
+                            
+                            <li><a href="./feeds/all.rss.xml" rel="alternate">rss feed</a></li>
+                            
+
+                        
+                            <li><a href="http://twitter.com/Leech">twitter</a></li>
+                        
+                            <li><a href="http://github.com/lardissone">github</a></li>
+                        
+                        </ul>
+                </div><!-- /.social -->
+        
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://alexis.notmyidea.org/pelican/">pelican</a>, which takes great advantages of <a href="http://python.org">python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://smashingmagazine.com">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+
+
+
+</body>
+</html>
